@@ -1,0 +1,93 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{menke_autonomie_2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c0d5f872390d50fb53b8f85e889b4650}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Suhrkamp}%
+      }
+      \strng{namehash}{c0d5f872390d50fb53b8f85e889b4650}
+      \strng{fullhash}{c0d5f872390d50fb53b8f85e889b4650}
+      \strng{bibnamehash}{c0d5f872390d50fb53b8f85e889b4650}
+      \strng{authorbibnamehash}{c0d5f872390d50fb53b8f85e889b4650}
+      \strng{authornamehash}{c0d5f872390d50fb53b8f85e889b4650}
+      \strng{authorfullhash}{c0d5f872390d50fb53b8f85e889b4650}
+      \field{labelalpha}{Men18}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Erste Auflage}
+      \field{number}{2266}
+      \field{series}{suhrkamp taschenbuch wissenschaft}
+      \field{shorttitle}{Autonomie und Befreiung}
+      \field{title}{Autonomie und Befreiung: Studien zu Hegel}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Table of Contents PDF:/home/fux/Zotero/storage/SDUCDKJD/Menke - 2018 - Autonomie und Befreiung Studien zu Hegel.pdf:application/pdf
+      \endverb
+      \keyw{Freiheit und Gesellschaft}
+    \endentry
+    \entry{nietzsche_morgenrote_1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Deutscher Taschenbuch Verlag}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \field{labelalpha}{Nie99}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Band 3}
+      \field{series}{kritische Studienausgabe in 15 Bänden, KSA}
+      \field{title}{Morgenröte. Idyllen aus Messina. Die fröhliche Wissenschaft}
+      \field{year}{1999}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
