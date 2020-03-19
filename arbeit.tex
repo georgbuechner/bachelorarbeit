@@ -1,0 +1,93 @@
+\documentclass[12pt, a4paper, openany]{report}
+
+\usepackage[left=3cm,top=3cm, bottom=3cm, right=4cm]{geometry}
+
+\usepackage{secdot} % Dots in Section Numbers
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{fancyhdr}
+\usepackage{todonotes}
+\usepackage{hyperref}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{}{0pt}{\Huge\bfseries}
+\newcommand\frontmatter{ \cleardoublepage \pagenumbering{roman}}
+\newcommand\mainmatter{ \cleardoublepage \pagenumbering{arabic}}
+\newcommand\backmatter{ \if@openright \cleardoublepage \else \clearpage \fi }
+
+\usepackage[autostyle]{csquotes}
+\usepackage[
+    backend=biber,
+    style=alphabetic,
+    sortlocale=de_DE,
+    natbib=true,
+    url=false,
+    doi=true,
+    eprint=false
+    ]{biblatex}
+\addbibresource{literatur.bib}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Jan van Dick}
+\chead{Bachelorarbeit: \glqq Zweite Natur und Befreiung\grqq}
+\rhead{\thepage}
+
+\title{
+    {Zweite Natur und Befreiung - zwischen Affirmation und Kritik}\\
+    {\large Goethe Universität Frankfurt am Main}\\
+    {\includegraphics{logo.png}}
+}
+\author{Jan van Dick}
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\chapter*{Abstrakt}
+Friedrich Nietzsches These vom Tode Gottes, dass \glqq wir\grqq{} ihn getötet haben, ist mehr als bloße Negativität. 
+Müsste der Mensch nicht selbst Gott werden, um ihn getötet zu haben?.\footfullcite[Vgl.][481]{nietzsche_morgenrote_1999} 
+Und der Mensch ist Gott dadurch geworden, dass er ihn \textit{geschaffen} hat, dadurch nur konnte er ihn töten. 
+In dem Tod Gottes, liegt, dass Gott selbst vom Menschen gesetzt, dass er Schein ist, der sich gegen ihn verselbstständigte.
+Gott ist somit geistiges Produkt des Menschen, in dem der Geist selbst wieder zur Natur sich verkehrte.
+Der Tod Gottes ist die Befreiung daraus.
+Der \glqq Tolle Mensch\grqq{} erklärt aber zugleich, dass nur die wenigsten von dieser Tat wissen. 
+Für, die einen ist der Tod Gottes, eine untergegangene Sonne, die Befreiung also wieder eine In-Natur-Verkehrtheit.
+Nur für uns \glqq geborene Räthselrather\grqq, die den Tod Gottes im vollen Umfang begreifen, ist er ein \glqq neues offenes Meer\grqq\footnote{\citeauthor[][573]{nietzsche_morgenrote_1999}}.
+Ist nun der Tod Gottes, die Befreiung aus der von ihm gesetzten Natur, das unbekannte, neue, offene, noch nie so offen gewesene Meer, oder ist es der Beginn des Wieder-in-Natur-Verkehrt-Seins, wie Christoph Menke es in der Analyse Hegels Begriffs der zweiten Natur beschreibt?\footfullcite[Vgl.][144]{menke_autonomie_2018}\\
+Befreiung steht also zwischen Kritik (wieder-in-Natur-Verkehrtheit) und Affirmation (Setzen von eigenem Sein).
+Während Menke (und Hegel) Befreiung aus der zweiten Natur, nicht ohne ein hervorgebrachtes Sein, in welchem der Geist wieder in Natur verfällt lesen, erörterte ich die Frage, ob es in dem Motiv des \glqq neuen offenen Meeres\grqq{} und der gebornenen Rätselrather bei Nietzsche, eine Befreiung aus der fortwährenden Wiederholung der Befreiung geben kann.
+Es ist die Frage nach einer dritten Befreiung neben der Befreiung aus der 1. und der 2. Natur. 
+Also eine Befreiung aus der Befreiung.
+
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Einleitung}
+
+\chapter{Hauptteil}
+\section{Zweite Natur bei Hegel}
+\subsection{Die Sittlichkeit}
+\subsection{Dialektik von Geist und Mechanismus}
+\subsection{Dialektik von Kritik und Affirmation}
+\section{Zweite Natur bei Nietzsche}
+\subsection{Was bedeutet Schein?}
+\subsection{Der Schauspieler und die Rolle}
+\subsection{Gott ist tot!}
+\section{Was heißt Befreiung aus der zweiten Natur}
+\section{Das offene Meer?}
+
+\chapter{Fazit}
+
+\backmatter
+
+\printbibliography
+ 
+\end{document}

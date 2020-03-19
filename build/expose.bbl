@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{adorno_negative_dialektik_2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dd6c4ce96883665c7c0c02bcab4553a8}{%
+           family={Adorno},
+           familyi={A\bibinitperiod},
+           given={Theodor\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main}%
+      }
+      \list{publisher}{1}{%
+        {Suhrkamp}%
+      }
+      \strng{namehash}{dd6c4ce96883665c7c0c02bcab4553a8}
+      \strng{fullhash}{dd6c4ce96883665c7c0c02bcab4553a8}
+      \strng{bibnamehash}{dd6c4ce96883665c7c0c02bcab4553a8}
+      \strng{authorbibnamehash}{dd6c4ce96883665c7c0c02bcab4553a8}
+      \strng{authornamehash}{dd6c4ce96883665c7c0c02bcab4553a8}
+      \strng{authorfullhash}{dd6c4ce96883665c7c0c02bcab4553a8}
+      \field{labelalpha}{Ado03}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1. Aufl}
+      \field{number}{Bd. 6}
+      \field{series}{Gesammelte Schriften}
+      \field{title}{Negative Dialektik}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
     \entry{menke_autonomie_2018}{book}{}
       \name{author}{1}{}{%
         {{hash=c0d5f872390d50fb53b8f85e889b4650}{%
@@ -45,7 +77,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{edition}{Erste Auflage}
-      \field{number}{2266}
       \field{series}{suhrkamp taschenbuch wissenschaft}
       \field{shorttitle}{Autonomie und Befreiung}
       \field{title}{Autonomie und Befreiung: Studien zu Hegel}

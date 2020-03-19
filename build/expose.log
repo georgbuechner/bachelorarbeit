@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.16)  16 MAR 2020 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.2)  18 MAR 2020 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**expose.tex
-(./expose.tex
+**../expose.tex
+(../expose.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1183,21 +1183,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 41.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--48
+
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
- [1
+(babel)             in language  on input line 61.
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 62.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1206,15 +1215,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 76.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 76.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 76.
+[2]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 81.
-[2]
-Overfull \hbox (1.127pt too wide) in paragraph at lines 97--97
+
+Overfull \hbox (6.06488pt too wide) in paragraph at lines 109--109
+[]\OT1/cmr/m/n/12 Theodor W. Ad-or-no. \OT1/cmr/m/it/12 Ne-ga-ti-ve Dia-lek-tik
+\OT1/cmr/m/n/12 . 1. Aufl. Ge-sam-mel-te Schrif-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 108.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 108.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 108.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 108.
+[3]
+Overfull \hbox (1.127pt too wide) in paragraph at lines 109--109
 []\OT1/cmr/m/n/12 Friedrich Nietz-sche. \OT1/cmr/m/it/12 Mor-genr[]ote. Idyl-le
 n aus Mes-si-na. Die fr[]ohliche
  []
@@ -1226,34 +1260,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 98.
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+(babel)             in language  on input line 110.
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (./expose.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `expose.out' has not changed.
-(rerunfilecheck)             Checksum: 2E427B07FAAA7682325A07CBC67B112A;111.
+(rerunfilecheck)             Checksum: 34B2EA0E3B5D9AEB185267A110E687C4;165.
 Package logreq Info: Writing requests to 'expose.run.xml'.
 \openout1 = `expose.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 23533 strings out of 492982
- 437916 string characters out of 6134896
- 884197 words of memory out of 5000000
- 26722 multiletter control sequences out of 15000+600000
+ 23544 strings out of 492982
+ 438156 string characters out of 6134897
+ 882214 words of memory out of 5000000
+ 26725 multiletter control sequences out of 15000+600000
  9194 words of font info for 32 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 62i,11n,58p,923b,1624s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,58p,926b,1624s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
@@ -1262,10 +1296,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb>
-Output written on expose.pdf (3 pages, 115731 bytes).
+Output written on expose.pdf (4 pages, 124134 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

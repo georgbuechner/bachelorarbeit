@@ -1,2 +1,6 @@
+# Define 
+FILE := arbeit
+
 all:
-	pdflatex expose.tex && biber expose % && pdflatex expose.tex
+	mkdir -p build
+	cd build && pdflatex ../$(FILE).tex && biber $(FILE) % && pdflatex ../$(FILE).tex
