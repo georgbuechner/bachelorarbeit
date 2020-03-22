@@ -1,15 +1,15 @@
-[1] Config.pm:302> INFO - This is Biber 2.9
-[1] Config.pm:305> INFO - Logfile is 'arbeit.blg'
-[35] biber:313> INFO - === Do Mär 19, 2020, 16:18:41
-[56] Biber.pm:371> INFO - Reading 'arbeit.bcf'
-[132] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
-[149] Biber.pm:3981> INFO - Processing section 0
-[160] Biber.pm:4154> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[161] bibtex.pm:1468> INFO - LaTeX decoding ...
-[180] bibtex.pm:1294> INFO - Found BibTeX data source 'literatur.bib'
-[204] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[204] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[204] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de_DE'
-[204] Biber.pm:3815> INFO - No sort tailoring available for locale 'de_DE'
-[208] bbl.pm:617> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
-[209] bbl.pm:720> INFO - Output to arbeit.bbl
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'arbeit.blg'
+[19] biber:315> INFO - === So Mär 22, 2020, 22:23:42
+[35] Biber.pm:371> INFO - Reading 'arbeit.bcf'
+[78] Biber.pm:889> INFO - Found 3 citekeys in bib section 0
+[86] Biber.pm:4093> INFO - Processing section 0
+[93] Biber.pm:4254> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[94] bibtex.pm:1512> INFO - LaTeX decoding ...
+[109] bibtex.pm:1329> INFO - Found BibTeX data source 'literatur.bib'
+[125] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[125] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[125] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de_DE'
+[125] Biber.pm:3927> INFO - No sort tailoring available for locale 'de_DE'
+[128] bbl.pm:636> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
+[129] bbl.pm:739> INFO - Output to arbeit.bbl
