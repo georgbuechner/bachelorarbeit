@@ -15,11 +15,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Zweite Natur bei Nietzsche}{4}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Was bedeutet Schein?}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}(a) Was bedeutet Schein?}{4}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Der Schauspieler und die Rolle}{4}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}(b) Der Schauspieler und die Rolle}{4}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Gott ist tot!}{4}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}(c) Gott ist tot!}{4}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Was hei\IeC {\ss }t Befreiung aus der zweiten Natur}{4}{section.2.3}
 \defcounter {refsection}{0}\relax 

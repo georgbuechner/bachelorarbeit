@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'arbeit.blg'
-[23] biber:313> INFO - === Mo Mär 23, 2020, 14:00:21
-[41] Biber.pm:371> INFO - Reading 'arbeit.bcf'
-[86] Biber.pm:857> INFO - Found 4 citekeys in bib section 0
-[95] Biber.pm:3981> INFO - Processing section 0
-[103] Biber.pm:4154> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[104] bibtex.pm:1468> INFO - LaTeX decoding ...
-[118] bibtex.pm:1294> INFO - Found BibTeX data source 'literatur.bib'
-[138] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[138] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[138] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de_DE'
-[138] Biber.pm:3815> INFO - No sort tailoring available for locale 'de_DE'
-[143] bbl.pm:617> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
-[144] bbl.pm:720> INFO - Output to arbeit.bbl
+[23] biber:313> INFO - === Di Mär 24, 2020, 17:01:44
+[42] Biber.pm:371> INFO - Reading 'arbeit.bcf'
+[90] Biber.pm:857> INFO - Found 4 citekeys in bib section 0
+[100] Biber.pm:3981> INFO - Processing section 0
+[108] Biber.pm:4154> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[109] bibtex.pm:1468> INFO - LaTeX decoding ...
+[124] bibtex.pm:1294> INFO - Found BibTeX data source 'literatur.bib'
+[147] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[147] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[147] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de_DE'
+[147] Biber.pm:3815> INFO - No sort tailoring available for locale 'de_DE'
+[152] bbl.pm:617> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
+[153] bbl.pm:720> INFO - Output to arbeit.bbl

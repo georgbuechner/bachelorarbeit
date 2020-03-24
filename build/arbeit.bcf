@@ -1925,14 +1925,20 @@
   <bcf:section number="0">
     <bcf:citekey order="1">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="2">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="3">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="3">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="4">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="5">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="6">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="7">adorno_negative_dialektik_2003</bcf:citekey>
+    <bcf:citekey order="5">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="6">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="7">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="8">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="9">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="10">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="9">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="10">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="11">adorno_negative_dialektik_2003</bcf:citekey>
+    <bcf:citekey order="12">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="13">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="14">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="15">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="16">menke_autonomie_2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

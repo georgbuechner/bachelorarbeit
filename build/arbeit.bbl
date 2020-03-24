@@ -79,7 +79,7 @@
       \field{edition}{Vollständig neu erarbeitete Studienausgabe ; Jubiläumsausgabe zum 150jährigen Bestehen der "Philosophischen Bibliothek}
       \field{number}{Band 700}
       \field{series}{Philosophische Bibliothek}
-      \field{shorttitle}{Grundlinien der Philosophie des Rechts}
+      \field{shorttitle}{Grundlinien}
       \field{title}{Grundlinien der Philosophie des Rechts: auf der Grundlage der Edition des Textes in den Gesammelten Werken Band 14}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -114,7 +114,7 @@
       \field{labeltitlesource}{shorttitle}
       \field{edition}{Erste Auflage}
       \field{series}{suhrkamp taschenbuch wissenschaft}
-      \field{shorttitle}{Autonomie und Befreiung}
+      \field{shorttitle}{Autonomie}
       \field{title}{Autonomie und Befreiung: Studien zu Hegel}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -147,9 +147,10 @@
       \field{sortinit}{N}
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{shorttitle}
       \field{number}{Band 3}
       \field{series}{kritische Studienausgabe in 15 Bänden, KSA}
+      \field{shorttitle}{Fröhliche Wissenschaft}
       \field{title}{Morgenröte. Idyllen aus Messina. Die fröhliche Wissenschaft}
       \field{year}{1999}
       \field{dateera}{ce}
