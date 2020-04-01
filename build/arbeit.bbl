@@ -123,6 +123,38 @@
       \endverb
       \keyw{Freiheit und Gesellschaft}
     \endentry
+    \entry{nietzsche_jenseits_2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Deutscher Taschenbuch Verlag}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \field{labelalpha}{Nie14}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Neuausgabe 1999, 13. Auflage 2014}
+      \field{number}{Band 5}
+      \field{series}{kritische Studienausgabe in 15 Bänden; KSA}
+      \field{title}{Jenseits von Gut und Böse. Zur Genealogie der Moral}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
     \entry{nietzsche_morgenrote_1999}{book}{}
       \name{author}{1}{}{%
         {{hash=5d199ea59b68f8edfff8c5ae07d60d68}{%

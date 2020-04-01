@@ -1945,6 +1945,11 @@
     <bcf:citekey order="20">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="21">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="22">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="23">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="24">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="25">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="26">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="27">nietzsche_morgenrote_1999</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
