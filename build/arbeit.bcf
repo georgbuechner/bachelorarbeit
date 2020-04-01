@@ -1939,6 +1939,12 @@
     <bcf:citekey order="14">hegel_grundlinien_2017</bcf:citekey>
     <bcf:citekey order="15">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="16">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="17">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="18">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="19">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="20">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="21">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="22">menke_autonomie_2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
