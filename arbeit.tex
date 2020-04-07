@@ -31,9 +31,14 @@
 \addbibresource{literatur.bib}
 
 \usepackage{xparse}
-\DeclareDocumentCommand \footATCite{ O{} o m } {%
-  \IfNoValueTF {#2} {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}
-                    {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2}}
+\DeclareDocumentCommand \footATCite{ o o m } {%
+  \IfNoValueTF {#2} 
+        { \IfNoValueTF {#2}
+                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}
+                {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}}
+        { \IfNoValueTF {#1} 
+                    {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}
+                    {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}}
   }
 
 \makeatletter
@@ -63,7 +68,7 @@
 
 
 \chapter*{Abstrakt}
-Friedrich Nietzsches These vom Tode Gottes, dass \glqq wir\grqq{} ihn getötet haben, ist mehr als bloße Negativität. 
+Friedrich\footATCite[Vgl.][]{nietzsche_morgenrote_1999} Nietzsches These vom Tode Gottes, dass \glqq wir\grqq{} ihn getötet haben, ist mehr als bloße Negativität. 
 Müsste der Mensch nicht selbst Gott werden, um ihn getötet zu haben?.\footfullcite[Vgl.][481]{nietzsche_morgenrote_1999} 
 Und der Mensch ist Gott dadurch geworden, dass er ihn \textit{geschaffen} hat, dadurch nur konnte er ihn töten. 
 In dem Tod Gottes, liegt, dass Gott selbst vom Menschen gesetzt, dass er Schein ist, der sich gegen ihn verselbstständigte.
@@ -141,10 +146,10 @@ Meine Vorstellung eines positiv bestimmten Freiheitsbegriffs, oder die Befreiung
 \section{Zweite Natur bei Hegel}\label{abschnitt_1}
 Freiheit so zu verstehen, dass man sie beständig noch erwerben muss\footATCite[Vgl.][636]{nietzsche_morgenrote_1999}, bedeutet Freiheit als Befreiung zu verstehen. 
 Freiheit also als einen Akt zu verstehen, der noch, oder immer wieder geschehen muss.
-Damit heißt Freiheit als Befreiung zu denken, wie Hegel, Menke, Adorno und, wie ich argumentieren werden, auch Nietzsche, es tun,  Freiheit negative zu verstehen und aus der Negation heraus zu begreifen.
+Damit heißt Freiheit als Befreiung zu denken, wie Hegel, Menke, Adorno und, wie ich argumentieren werden, auch Nietzsche es tun, Freiheit negative zu verstehen und aus der Negation heraus zu begreifen.
 Immanuel Kant versucht in der Bestimmung der Freiheit als Selbstgesetzgebung, Freiheit so zu bestimmen, dass dieser Akt der Negation verschwindet. 
 Dieser Versuche ist bei Kant zugleich der Versuch das Paradox der Autonomie aufzulösen. 
-Hegels Kritik der Autonomie, versucht hingegen aufzuzeigen, dass sich dieses Paradox in der Selbstgesetzgebung auch bei Kant erneut wiederholt.
+Hegels Kritik der Autonomie versucht hingegen aufzuzeigen, dass sich dieses Paradox in der Selbstgesetzgebung auch bei Kant erneut wiederholt.
 Ich möchte zunächst anhand von Hegels Kritik der Autonomie den Begriff der Sittlichkeit erarbeiten.
 Aus diese komme ich zur Gewohnheit, welche
 \begin{itemize}
@@ -154,12 +159,48 @@ Hieran zeigt sich, dass in der Sittlichkeit das Paradox der Autonomie erneut auf
 Anhand des Zitates, werde ich die sich hier entfaltende Dialektik von Geist und Mechanismus, sowie Kritik und Affirmation beschreiben und daraus die Begriffe zweite Natur und Befreiung erarbeiten und an ihnen den Ausweg aus dem Paradox skizzieren.
 
 \subsection{(a) Autonomie und Sittlichkeit}
+Der Tod Gottes bei Nietzsche hat allerdings nicht bloß die Bedeutung der Befreiung aus der zweiten Natur. 
+Gott selbst ist, wie erwähnt, die Befreiung aus der ersten Natur.
+Der Mensch ist nicht mehr durch seine (erste) Natur bestimmt, er hat einen Gott außer sich geschaffen, die Moral und Gesetz vorschreibt. 
+Die Überwindung Gottes bedeutet ebenso, diese Gesetze nicht mehr durch eine Macht außerhalb des Menschen zu begründen. 
+Der Tod Gottes beginnt deshalb auch dort, wo die Moral nicht mehr bloß durch Gott bestimmt ist. 
+Der Begriff der Autonomie versucht nun zweierlei: 
+er versucht die Bestimmung der Moral von Gott zu lösen und in den Menschen zurückzuführen, ohne jedoch den Schritt hinter Gott zurückzutreten und Freiheit wieder durch blindes Bestimmt-Sein durch die Natur, die sinnlichen Triebfedern zu sehen. 
 
+\subsubsection{Kant und das Paradox der Autonomie}
 Autonomie bedeutet zunächst Gesetz und Freiheit nicht als einander gegenübergestellt, sondern als sich gegenseitig ergänzend und bestimmend zu betrachten: 
 Nicht in dem blinden Folgen meiner sinnlichen Triebe, sondern in dem Handeln nach dem Gesetzt bin ich frei. 
 Und ein Gesetzt ist nur dasjenige, unter dessen Befolgung ich frei bin. 
 Autonom zu sein bedeutet also meinem selbst gegebenem Gesetzt zu folgen. 
-Autonomie bedeutet, dass freies Wollen und verpflichtendes Sollen in eins fallen.\footATCite[Vgl.][19]{menke_autonomie_2018}
+Autonomie bedeutet, dass freies Wollen und verpflichtendes Sollen in eins fallen.\footATCite[Vgl.][19]{menke_autonomie_2018}\\
+Die Selbstgesetzgebung ist ebenso der Ort, an dem das Paradox der Autonomie auftritt: 
+die Selbstgesetzgebung, in der die Autonomie einsetzen soll, ist selbst nur als heteronom zu denken: 
+entweder folgt die Selbstgesetzgebung aus einem anderen, äußeren Gesetz (äußere Heteronomie) oder beruht auf der freien Willkür des Subjekts (innere Autonomie).\footATCite[Vgl.][20]{menke_autonomie_2018}\\
+Indem Kant die Autonomieformel beinahe wörtlich wiederholt, aber den Fokus von \textit{Selbst}Gesetzgebung zu \textit{eigener} Gesetzgebung verlegt, beschreibt er das Gesetz nicht als für das Subjekt bereits vorhanden, welches dieses nur auswählt, sondern als Gesetz des Subjekts selbst.
+Diese eigenen Gesetze hätten nach Kant gleichwohl allgemeinen Charakter.\footfullcite[Vgl.][65]{kant_kritik_2014} 
+Das Subjekt wird also als Urheber des Gesetzes gesehen, doch wie kann dieses eigene Gesetz allgemein gültige Notwendigkeit haben, wie kann es als objektives Gesetz der Vernunft gelten?
+Die Antwort auf diese Frage, liegt in dem kategorischen Imperativ: \glqq handler nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde\grqq\footATCite[][51. Im Original gesperrt gedruckt]{kant_kritik_2014}.
+Selbstgesetzgebung bedeutet bei Kant also nicht, dass das Subjekt sich ein bestehendes Gesetz gibt, sondern \glqq seinen Antrieben die \textit{Form} des Gesetzes zu geben\grqq\footATCite[][24]{menke_autonomie_2018}.
+Autonomie bedeutet bei Kant demnach durch die Wahl der Maxime diese zum allgemeinen Gesetz zu machen. 
+Das Gesetz ist also wesentlich durch die Freiheit bestimmt.
+Ebenso auch die Freiheit durch dass Gesetz, denn wie alles Gesetzen unterliegt, müsse dies auch für den freien Willen gelten.
+Die Kausalität des freien Willen ist \glqq die Eigenschaft des Willens, sich selbst ein Gesetz zu sein\grqq\footATCite[][81]{kant_kritik_2014}.\\
+
+Damit ist bei Kant das erreicht, was ich oben als das Ziel des Begriffs der Autonomie definierte: 
+das normative Gesetz ist zurück bei dem Menschen und obliegt nicht einer Macht außerhalb des Menschen (Gott), zugleich wird Freiheit nicht verstanden als blindes Unterliegen der sinnlichen Triebfedern. 
+Freiheit ist bei Kant negativ bestimmt als das Frei-Sein von sinnlichen Antrieben, aber zugleich in dem Begriff der Selbstgesetzgebung positiv realisiert. 
+Der Mensch \textit{ist} also frei. 
+Freiheit bedarf keiner Negation mehr.\footATCite[Vgl.][53]{menke_autonomie_2018}
+Wie eingangs behauptet verstehen Hegel und Nietzsche Freiheit aber gerade so, dass sie noch werden muss. 
+Kant gelangte zur positiven Realisation der Freiheit mit seinem Begriff der Selbstgesetzgebung. 
+Dieser in diesem Wiederholt sich allerdings nach Hegel das Paradox der Autonomie, gerade indem der kategorische Imperativ nur durch die \textit{Form} bestimmt ist und selbst inhaltsleer bleibt. 
+Die Maxime muss die Form des allgemeinen Gesetz haben, welches aber selbst keine Bedingungen hat:
+es \glqq bleibt damit nur die abstrakte Allgemeinheit [...] oder das Abstrakte \textit{Positive}, dass Bestimmungslose zu ihrer Bestimmung.\grqq{} Kants Autonomieformel verkommt zum \glqq leeren Formalismus\grqq\footATCite[][139, §135]{hegel_grundlinien_2017}.
+Das Paradox besteht darin, dass die Freiheit nur in der Inhaltslosigkeit zu denken ist, der Inhalt kann aber nur von außen hinzukommen, liegt also nicht mehr innerhalb der Selbstgesetzgebung und der Traum der positiven Realisation der Freiheit verpufft.
+
+\subsubsection{Hegels Auswegen in der Sittlichkeit}
+
+\subsubsection{Die Wiederholung der Autonomie}
 
 
 \subsection{(b) Dialektik von Geist und Mechanismus}

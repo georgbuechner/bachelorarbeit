@@ -87,6 +87,42 @@
       \verb Table of Contents PDF:/home/fux/Zotero/storage/7LRM3Q8H/Hegel - 2017 - Grundlinien der Philosophie des Rechts auf der Gr.pdf:application/pdf
       \endverb
     \endentry
+    \entry{kant_kritik_2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e1e09a59acd7633f469747be85d5edc0}{%
+           family={Kant},
+           familyi={K\bibinitperiod},
+           given={Immanuel},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main}%
+      }
+      \list{publisher}{1}{%
+        {Suhrkamp}%
+      }
+      \strng{namehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{bibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorbibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authornamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \field{labelalpha}{Kan14}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{21. Aufl}
+      \field{number}{in 12 Bänden / Immanuel Kant. Hrsg. von Wilhelm Weischedel ;[...]}
+      \field{series}{Werkausgabe}
+      \field{shorttitle}{Grundlegungen}
+      \field{title}{Kritik der praktischen Vernunft. Grundlegung zur Metaphysik der Sitten}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Table of Contents PDF:/home/fux/Zotero/storage/YMCESB7B/Kant et al. - 2014 - Kritik der praktischen Vernunft. Grundlegung zur M.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{menke_autonomie_2018}{book}{}
       \name{author}{1}{}{%
         {{hash=c0d5f872390d50fb53b8f85e889b4650}{%
