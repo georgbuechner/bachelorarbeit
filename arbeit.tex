@@ -33,12 +33,24 @@
 \usepackage{xparse}
 \DeclareDocumentCommand \footATCite{ o o m } {%
   \IfNoValueTF {#2} 
-        { \IfNoValueTF {#2}
-                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}
-                {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}}
-        { \IfNoValueTF {#1} 
-                    {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}
-                    {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}}
+        {%
+             \IfNoValueTF {#2}%
+                {%
+                    \footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}%
+                    }%
+                {%
+                    \footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}%
+                    }%
+        }%
+        {%
+              \IfNoValueTF {#1}%
+                 {%
+                    \footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}
+                    }%
+                 {%
+                    \footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}%
+                    }%
+        }
   }
 
 \makeatletter
@@ -68,7 +80,7 @@
 
 
 \chapter*{Abstrakt}
-Friedrich\footATCite[Vgl.][]{nietzsche_morgenrote_1999} Nietzsches These vom Tode Gottes aus \textit{Die Fröhliche Wissenschaft}, dass \glqq wir\grqq{} ihn getötet haben, ist mehr als bloße Negativität. 
+Friedrich Nietzsches These vom Tode Gottes aus \textit{Die Fröhliche Wissenschaft}, dass \glqq wir\grqq{} ihn getötet haben, ist mehr als bloße Negativität. 
 Müsste der Mensch nicht selbst Gott werden, um ihn getötet zu haben?.\footfullcite[Vgl.][481]{nietzsche_morgenrote_1999} 
 Und der Mensch ist Gott dadurch geworden, dass er ihn \textit{geschaffen} hat, dadurch nur konnte er ihn töten. 
 In dem Tod Gottes, liegt, dass Gott selbst vom Menschen gesetzt, dass er Schein ist, der sich gegen ihn verselbstständigte.
@@ -94,11 +106,11 @@ Befreiung bleibt notwendig: der Mensch kann Freiheit nicht \textit{haben}, er mu
 \chapter{Einleitung}
 So, wie Friedrich Nietzsche in dem Aphorismus vom \glqq Tollen Menschen\grqq{} in \textit{Die fröhliche Wissenschaft} die These vom Tode Gottes entfaltet, enthält sie weit mehr als die bloße Negation Gottes;
 in ihr steckt eine dialektische Konzeption der Begriffe (zweite) Natur und Befreiung.\footfullcite[Vgl.][481]{nietzsche_morgenrote_1999}
-Diese beiden Begriffe möchte ich aus der sprachgewaltigen und metaphergeladenen Sicht Nietzsches, sowie der von Christoph Menke rekonstruierten Perspektive Hegels untersuchen.
-Beide Begriffe entfalten sich in ihrem Doppelcharakter: zweite Natur - Kritik und Affirmation, Befreiung - Macht und Ohnmacht des Geistes.
-In der zweiten Natur schlägt Setzen in Sein um; hierin liegt zum Einen die Verwirklichung des Geistes (Affirmation), zum Anderen die In-Natur-Verkehrtheit, der Tod des Geistes im Geist (Kritik).\footfullcite[Vgl.][145]{menke_autonomie_2018}
+Diese beiden Begriffe möchte ich aus der Sicht Nietzsches, sowie der von Christoph Menke rekonstruierten Perspektive Hegels untersuchen.
+Beide Begriffe entfalten sich in ihrem Doppelcharakter: zweite Natur als Kritik und Affirmation, Befreiung als Macht und Ohnmacht des Geistes.
+In der zweiten Natur schlägt Setzen in Sein um; hierin liegt zum Einen die Verwirklichung des Geistes (Affirmation), zum Anderen die In-Natur-Verkehrtheit, der Tod des Geistes durch den Geist (Kritik).\footfullcite[Vgl.][145]{menke_autonomie_2018}
 Ebenso verhält es sich mit dem Begriff der Befreiung: 
-Sie ist 1. die \textit{Macht} des Geistes neues Hervorzubringen und die scheinbare Notwendigkeit des Bestehenden zu durchbrechen, 
+sie ist 1. die \textit{Macht} des Geistes neues Hervorzubringen und die scheinbare Notwendigkeit des Bestehenden zu durchbrechen, 
 2. aber die \textit{Ohnmacht} des Geistes, da die Befreiung nie abgeschlossen ist; die Macht der Befreiung ist die Schaffung einer \glqq neuen\grqq{} zweiten Natur, aus der der Geist sich befreite und nun erneut befreien muss.\footATCite[Vgl.][80]{menke_autonomie_2018}\\
 Doch während in Hegels Deutung der Geist in der Befreiung aus der zweiten Natur, auf Grund der Endlichkeit des menschlichen Geistes, wieder in Natur verfällt, scheint bei Nietzsche in der Metapher des neuen, offenen Meeres, die Perspektive die ewige Wiederholung der In-Natur-Verkehrtheit zu überwinden, gegeben zu sein.
 Zugleich betonen sowohl Hegel, als auch Nietzsche Freiheit als nicht-gegeben: 
@@ -111,15 +123,15 @@ Genauer: in einer Form des Bewusstseins in der Tätigkeit der Befreiung;
 eine Befreiung, die sich im Bewusstsein ihrer eigenen Kritik vollzieht.
 Zu Fragen ist, ob dieses Bewusst-Werden eine Arbeit des einzelnen Individuums ist, oder ob es aus der Struktur des Allgemeinen, aus der zweiten Natur selbst, hervorgehen kann.\\
 
-Nietzsche Aussage über den Tod Gottes bedeutet nach der Form-Seite die Überwindung der vom Menschen gesetzten zweiten Natur (Gott), der inhaltlichen Seite nach aber, dass der Mensch Gott nicht mehr nötig hat und die Bestimmung der Moral sich aus dem Menschen selbst entwickelt. 
-In diesem Sinne ist Kant Philosophie der Versuch einer Begründung der Moral aus der reinen praktischen Vernunft und dadurch eine Begründung der Moral die nicht von Gott abhängt. 
+Nietzsche Aussage über den Tod Gottes bedeutet nach der Form-Seite die Überwindung der vom Menschen gesetzten zweiten Natur (Gott), der inhaltlichen Seite nach aber, dass der Mensch Gott nicht mehr nötig hat und die Bestimmung des Gesetzes sich aus dem Menschen selbst entwickelt. 
+In diesem Sinne ist Kants Philosophie der Versuch einer Begründung der Moral aus der reinen praktischen Vernunft und dadurch eine Begründung der Moral die nicht von Gott abhängt. 
 Ob für Nietzsche Kants Philosophie der Ursprung des Todes Gottes ist, oder bereits der Beginn des offenen Meeres, lasse ich dahingestellt, argumentiere aber selbst, dass er beides ist.
 Um also den Begriff der zweiten Natur zu erarbeiten, werde ich kurz auf Kants Autonomieformel eingehen, da hier der Versuch Gesetz und Freiheit zusammen zudenken seinen Ursprung nimmt. 
 Der Begriff der zweiten Natur ergibt sich dann aus Hegels Kritik an Kants Autonomiebegriff:
-Versucht Kant zwar mit dem kategorischen Imperativ aus dem Paradox der Autonomie zu entkommen, argumentiert Hegel, dass er sich hier in der Inhaltslosigkeit des Gesetzes wiederholt.
+versucht Kant zwar mit dem kategorischen Imperativ aus dem Paradox der Autonomie zu entkommen, argumentiert Hegel, dass er sich hier in der Inhaltslosigkeit des Gesetzes wiederholt.
 Hegels Ausweg besteht darin Freiheit sozial zu verstehen. 
 Aus dieser Perspektive werde ich Hegels Begriff der Sittlichkeit als soziale Teilhabe entwickeln.
-Doch auch hier wird sich das Paradox der Autonomie wiederholen.
+Doch auch hier wird sich das Paradox der Autonomie in der Begriff der Gewohnheit wiederholen.
 Aus der erneuten Wiederholung des Paradox werde ich Hegels Begriff der Befreiung entwickeln.
 Darin ergibt sich, wie oben angegeben, die Grenze des von Menke erarbeiteten Begriffs der Befreiung:
 Macht und Ohnmacht der Befreiung: Freiheit und Unfreiheit bleiben untrennbar miteinander verbunden.
@@ -151,17 +163,24 @@ Es mag merkwürdig anmuten, dass ich gerade mit der Kritik an der Autonomie begi
 wo die Leitfrage meiner Arbeit doch letztendlich auf einen positiven Begriff der Freiheit hinausläuft, auf eine Befreiung, die die Unfreiheit hinter sich lassen kann.
 Dennoch und trotzdem, liegt meiner Arbeit, wie den beiden Autoren, zu jeder Zeit Adornos Bestimmung der Freiheit als Befreiung aus der jeweiligen Unfreiheit zu Grunde.
 Der Versuch eines Hinausgehen, über den Begriff der Befreiung hinaus oder durch ihn hindurch, hin zu einem positiven Begriff von Freiheit, ist ohne die Kritik an dem positiven Begriff der Freiheit, zum Scheitern verurteilt.
-Meine Vorstellung eines positiv bestimmten Freiheitsbegriffs, oder die Befreiung über die Befreiung hinaus, ist die Befreiung, die sich als Unfreiheit weiß; die Befreiung also, die weder positiv noch negativ, sondern beides ist.
+Meine Vorstellung eines positiv bestimmten Freiheitsbegriffs, oder die Befreiung über die Befreiung hinaus, ist die Befreiung, die sich als Unfreiheit weiß; die Befreiung also, die positiv bestimmt ist, aber nur in der Negation realisiert werden kann. 
 
 \section{Zweite Natur bei Hegel}\label{abschnitt_1}
-Freiheit so zu verstehen, dass man sie beständig noch erwerben muss\footATCite[Vgl.][636]{nietzsche_morgenrote_1999}, bedeutet Freiheit als Befreiung zu verstehen. 
+Der Begriff der Freiheit kann nicht als reine Unbestimmtheit oder bloße Abstraktion von allem verstanden werden.\footATCite[Vgl.][38, §5]{hegel_grundlinien_2017} 
+Sondern die Freiheit kann nur gefunden werden, wo eine Bestimmung des Selbst vorhanden ist.
+Allerdings muss diese Bestimmung selbst die Form der Freiheit besitzen. 
+Thomas Khurana drückt dies so aus, dass das Subjekt einer Bestimmung bedarf, die dem Ich einen konkreten Inhalt gibt und (diese Bestimmung) selbst die Form des Ich erhält\footATCite[Vgl.][285]{khurana_freiheit_2017}. 
+Freiheit des Willens ist also eben das: sich \glqq als \textit{bestimmt}, \textit{beschränkt} zu setzen und bei sich, d.i. in seiner \textit{Identität} mit sich und Allgemeinheit zu bleiben.\grqq\footATCite[][40, §7]{hegel_grundlinien_2017}
+Ein Versuch Freiheit als diese Einheit von Freiheit und Bestimmung zu verstehen ist der Begriff der Autonomie. 
+Der Begriff der Autonomie, wie Kant ihn erarbeitet, nimmt schließlich eine positiven Realisation der Freiheit an.
+Freiheit jedoch so zu verstehen, dass man sie beständig noch erwerben muss\footATCite[Vgl.][636]{nietzsche_morgenrote_1999}, bedeutet Freiheit als Befreiung zu verstehen. 
 Freiheit also als einen Akt zu verstehen, der noch (oder immer wieder) geschehen muss.
-Damit heißt Freiheit als Befreiung zu denken, wie Hegel, Menke, Adorno und, wie ich argumentieren werden, auch Nietzsche es tun, Freiheit negative zu verstehen und aus der Negation heraus zu begreifen.
+Damit heißt Freiheit als Befreiung zu denken, wie Hegel, Menke, Adorno und (wie ich argumentieren werden) auch Nietzsche es tun, Freiheit negative zu verstehen und aus der Negation heraus zu begreifen.
 Immanuel Kant versucht in der Bestimmung der Freiheit als Selbstgesetzgebung, Freiheit so zu bestimmen, dass dieser Akt der Negation verschwindet. 
-Dieser Versuche ist bei Kant zugleich der Versuch das Paradox der Autonomie aufzulösen. 
+Dieser Versuch ist bei Kant zugleich der Versuch das Paradox der Autonomie aufzulösen. 
 Hegels Kritik der Autonomie versucht hingegen aufzuzeigen, dass sich dieses Paradox in der Selbstgesetzgebung auch bei Kant erneut wiederholt.
 Ich möchte zunächst anhand von Hegels Kritik der Autonomie den Begriff der Sittlichkeit erarbeiten.
-Aus diese komme ich zur Gewohnheit, welche
+Aus diesem komme ich zur Gewohnheit, welche
 \begin{itemize}
     \item[] [...] als zweite Natur geistig oder frei ist, insofern sie ein Ausdruck des Wollens (oder ein Setzen) ist, und mechanisch oder unfrei ist, weil sie, einmal gesetzt, selbstständig und unbewusst wirkend ist.\footATCite[][145]{menke_autonomie_2018}
 \end{itemize}
@@ -169,17 +188,15 @@ Hieran zeigt sich, dass in der Sittlichkeit das Paradox der Autonomie erneut auf
 Anhand des Zitates, werde ich die sich hier entfaltende Dialektik von Geist und Mechanismus, sowie Kritik und Affirmation beschreiben und daraus die Begriffe zweite Natur und Befreiung erarbeiten und an ihnen den Ausweg aus dem Paradox skizzieren.
 
 \subsection{(a) Autonomie und Sittlichkeit}
-Der Tod Gottes bei Nietzsche hat allerdings nicht bloß die Bedeutung der Befreiung aus der zweiten Natur. 
-Gott selbst ist, wie erwähnt, die Befreiung aus der ersten Natur.
-Der Mensch ist nicht mehr durch seine (erste) Natur bestimmt, er hat einen Gott außer sich geschaffen, die Moral und Gesetz vorschreibt. 
-Die Überwindung Gottes bedeutet ebenso, diese Gesetze nicht mehr durch eine Macht außerhalb des Menschen zu begründen. 
+Der Tod Gottes bei Nietzsche hat, wie in der Einleitung bereits erwähnt, nicht bloß die Bedeutung der Befreiung aus der zweiten Natur, sondern ist ebenso eine Reflexion auf die Umwälzung innerhalb der (Moral-)Philosophie seines und des vorangegangenen Jahrhunderts. 
+Waren doch die Gesetze der Moral durch Gott bestimmt und die Freiheit als die Befolgung dieser Gottesgesetze, so entzieht die Überwindung Gottes diese Gesetze der außer dem Menschen liegende Macht. 
 Der Tod Gottes beginnt deshalb auch dort, wo die Moral nicht mehr bloß durch Gott bestimmt ist. 
 Der Begriff der Autonomie versucht nun zweierlei: 
-er versucht die Bestimmung der Moral von Gott zu lösen und in den Menschen zurückzuführen, ohne jedoch den Schritt hinter Gott zurückzutreten und Freiheit wieder durch blindes Bestimmt-Sein durch die Natur, die sinnlichen Triebfedern zu sehen. 
+er versucht die Bestimmung der Moral von Gott zu lösen und in den Menschen zurückzuführen, ohne jedoch den Schritt hinter Gott zurückzutreten und Freiheit wieder durch blindes Bestimmt-Sein durch die Natur, die sinnlichen Triebfedern, zu sehen. 
 
 \subsubsection{Kant und das Paradox der Autonomie}
 Autonomie bedeutet zunächst Gesetz und Freiheit nicht als einander gegenübergestellt, sondern als sich gegenseitig ergänzend und bestimmend zu betrachten: 
-Nicht in dem blinden Folgen meiner sinnlichen Triebe, sondern in dem Handeln nach dem Gesetzt bin ich frei. 
+nicht in dem blinden Folgen meiner sinnlichen Triebe, sondern in dem Handeln nach dem Gesetzt bin ich frei. 
 Und ein Gesetzt ist nur dasjenige, unter dessen Befolgung ich frei bin. 
 Autonom zu sein bedeutet also meinem selbst gegebenem Gesetzt zu folgen. 
 Autonomie bedeutet, dass freies Wollen und verpflichtendes Sollen in eins fallen.\footATCite[Vgl.][19]{menke_autonomie_2018}\\
@@ -189,7 +206,7 @@ entweder folgt die Selbstgesetzgebung aus einem anderen, äußeren Gesetz (äuß
 Indem Kant die Autonomieformel beinahe wörtlich wiederholt, aber den Fokus von \textit{Selbst}Gesetzgebung zu \textit{eigener} Gesetzgebung verlegt, beschreibt er das Gesetz nicht als für das Subjekt bereits vorhanden, welches dieses nur auswählt, sondern als Gesetz des Subjekts selbst.
 Diese eigenen Gesetze hätten nach Kant gleichwohl allgemeinen Charakter.\footfullcite[Vgl.][65]{kant_kritik_2014} 
 Das Subjekt wird also als Urheber des Gesetzes gesehen, doch wie kann dieses eigene Gesetz allgemein gültige Notwendigkeit haben, wie kann es als objektives Gesetz der Vernunft gelten?
-Die Antwort auf diese Frage, liegt in dem kategorischen Imperativ: \glqq handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde\grqq\footATCite[][51. Im Original gesperrt gedruckt]{kant_kritik_2014}.
+Die Antwort auf diese Frage, liegt in dem kategorischen Imperativ: \glqq \textit{handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde}\grqq\footATCite[][51. Im Original gesperrt gedruckt]{kant_kritik_2014}.
 Selbstgesetzgebung bedeutet bei Kant also nicht, dass das Subjekt sich ein bestehendes Gesetz gibt, sondern \glqq seinen Antrieben die \textit{Form} des Gesetzes zu geben\grqq\footATCite[][24]{menke_autonomie_2018}.
 Autonomie bedeutet bei Kant demnach durch die Wahl der Maxime diese zum allgemeinen Gesetz zu machen. 
 Das Gesetz ist also wesentlich durch die Freiheit bestimmt.
@@ -204,8 +221,8 @@ Freiheit bedarf keiner Negation mehr.\footATCite[Vgl.][53]{menke_autonomie_2018}
 Wie eingangs behauptet verstehen Hegel und Nietzsche Freiheit aber gerade so, dass sie noch werden muss. 
 Kant gelangte zur positiven Realisation der Freiheit mit seinem Begriff der Selbstgesetzgebung. 
 In diesem wiederholt sich allerdings nach Hegel das Paradox der Autonomie. Der kategorische Imperativ ist nur durch die \textit{Form} bestimmt und bleibt selbst inhaltsleer.
-Die Maxime muss die Form des allgemeinen Gesetz haben, welches aber selbst keine Bedingungen hat:
-es \glqq bleibt damit nur die abstrakte Allgemeinheit [...] oder das Abstrakte \textit{Positive}, dass Bestimmungslose zu ihrer Bestimmung.\grqq{} Kants Autonomieformel verkommt zum \glqq leeren Formalismus\grqq\footATCite[][139, §135]{hegel_grundlinien_2017}.
+Die Maxime muss die Form des allgemeinen Gesetzes haben, welches aber selbst keine Bedingungen hat:
+es \glqq bleibt damit nur die abstrakte Allgemeinheit [...] oder das Abstrakte \textit{Positive}, dass Bestimmungslose zu ihrer Bestimmung\grqq{} und Kants Autonomieformel verkommt zum \glqq leeren Formalismus\grqq.\footATCite[][139, §135]{hegel_grundlinien_2017}
 Das Paradox besteht darin, dass die Freiheit nur in der Inhaltslosigkeit zu denken ist, der Inhalt kann aber nur von außen hinzukommen, liegt also nicht mehr innerhalb der Selbstgesetzgebung und der Traum der positiven Realisation der Freiheit verpufft.
 
 \subsubsection{Hegels Auswegen in der Sittlichkeit}

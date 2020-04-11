@@ -76,7 +76,6 @@
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{edition}{Vollständig neu erarbeitete Studienausgabe ; Jubiläumsausgabe zum 150jährigen Bestehen der "Philosophischen Bibliothek}
       \field{number}{Band 700}
       \field{series}{Philosophische Bibliothek}
       \field{shorttitle}{Grundlinien}
@@ -122,6 +121,35 @@
       \verb{file}
       \verb Table of Contents PDF:/home/fux/Zotero/storage/YMCESB7B/Kant et al. - 2014 - Kritik der praktischen Vernunft. Grundlegung zur M.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{khurana_freiheit_2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e349d8796f66a379cee49585bc0b9938}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \strng{namehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{fullhash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{bibnamehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{authorbibnamehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{authornamehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{authorfullhash}{e349d8796f66a379cee49585bc0b9938}
+      \field{labelalpha}{Khu17}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Erste Auflage}
+      \field{series}{suhrkamp taschenbuch wissenschaft}
+      \field{shorttitle}{Freiheit}
+      \field{title}{Das Leben der Freiheit}
+      \field{year}{2017}
+      \field{dateera}{ce}
     \endentry
     \entry{menke_autonomie_2018}{book}{}
       \name{author}{1}{}{%
