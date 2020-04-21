@@ -10,7 +10,7 @@
 \graphicspath{ {images/} }
 
 \usepackage{fancyhdr}
-\usepackage{todonotes}
+\usepackage[textwidth=90, backgroundcolor=blue]{todonotes}
 \usepackage{hyperref}
 
 \usepackage{titlesec}
@@ -33,32 +33,19 @@
 
 \usepackage{xparse}
 \DeclareDocumentCommand \footATCite{ o o m } {%
-  \IfNoValueTF {#2} 
-        {%
+  \IfNoValueTF {#2}%
+            {%
              \IfNoValueTF {#2}%
-                {%
-                    \footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}%
-                    }%
-                {%
-                    \footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}%
-                    }%
-        }%
-        {%
+                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}%
+                {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}%
+            }%
+            {%
               \IfNoValueTF {#1}%
-                 {%
-                    \footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}
-                    }%
-                 {%
-                    \footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}%
-                    }%
-        }
+                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}%
+                 {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}%
+            }%
   }
 
-\makeatletter
-\def\mycmd{\@ifnextchar[{\@with}{\@without}}
-\def\@with[#1]#2{hello #1, have you met #2?}
-\def\@without#1{goodbye #1}
-\makeatother
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -67,11 +54,20 @@
 \rhead{\thepage}
 
 \title{
-    {Zweite Natur und Befreiung - zwischen Affirmation und Kritik}\\
+    {Zweite Natur und Befreiung}\\ 
+    {\large zwischen Kritik und Affirmation}\\
+    {\bigskip}
     {\large Goethe Universität Frankfurt am Main}\\
-    {\includegraphics{logo.png}}
+    {\bigskip}    
+    {\bigskip}    
+    {\includegraphics{logo.png}}\\
+    {\bigskip}    
+    {Sommersemester 2020}\\
 }
-\author{Jan van Dick}
+\author{
+    {Jan van Dick}\\
+    {6081227}
+}
 \date{\today}
 
 \begin{document}
@@ -80,7 +76,7 @@
 \frontmatter
 
 
-\chapter*{Abstrakt}
+\chapter*{Abstrakt} \todo[noline]{Ist das Abstrakt so sinnvoll?}
 Friedrich Nietzsches These vom Tode Gottes aus \textit{Die Fröhliche Wissenschaft}, dass \glqq wir\grqq{} ihn getötet haben, ist mehr als bloße Negativität. 
 Müsste der Mensch nicht selbst Gott werden, um ihn getötet zu haben?.\footfullcite[Vgl.][481]{nietzsche_morgenrote_1999} 
 Und der Mensch ist Gott dadurch geworden, dass er ihn \textit{geschaffen} hat, dadurch nur konnte er ihn töten. 
@@ -116,15 +112,16 @@ sie ist 1. die \textit{Macht} des Geistes neues Hervorzubringen und die scheinba
 Doch während in Hegels Deutung der Geist in der Befreiung aus der zweiten Natur, auf Grund der Endlichkeit des menschlichen Geistes, wieder in Natur verfällt, scheint bei Nietzsche in der Metapher des neuen, offenen Meeres, die Perspektive die ewige Wiederholung der In-Natur-Verkehrtheit zu überwinden, gegeben zu sein.
 Zugleich betonen sowohl Hegel, als auch Nietzsche Freiheit als nicht-gegeben: 
 Freiheit wird bei beiden so gedacht, dass man sie \glqq nicht nur hat, sondern auch beständig  noch erwirbt und erwerben muss\grqq\footATCite[][637]{nietzsche_morgenrote_1999}. 
-Freiheit ist die Befreiung aus der jeweiligen Unfreiheit.\footfullcite[Vgl][227]{adorno_negative_dialektik_2003} \\
+Freiheit ist die Befreiung aus der jeweiligen Unfreiheit.\footfullcite[Vgl][227]{adorno_negative_dialektik_2003}\todo[noline]{Eingehen auf Geist = sich von Natur unterscheiden?} \\ 
 Die Dialektik zwischen Freiheit und Notwendigkeit, Geist und Mechanismus, Endlichkeit und Unendlichkeit des Geistes, ist demnach Gegenstand meiner Arbeit. 
 Die Leitfrage der Arbeit also: \textit{gibt es in Nietzsches Philosophie eine Möglichkeit der Überwindung der Notwendig-in-Natur-Verkehrtheit des Geistes?}\\
 Aus der Position des oben erwähnten \glqq Tollen Menschen\grqq{} liegt es nahe, diese Möglichkeit in dem \textit{Vollzug} der Befreiung zu denken. 
 Genauer: in einer Form des Bewusstseins in der Tätigkeit der Befreiung; 
 eine Befreiung, die sich im Bewusstsein ihrer eigenen Kritik vollzieht.
-Zu Fragen ist, ob dieses Bewusst-Werden eine Arbeit des einzelnen Individuums ist, oder ob es aus der Struktur des Allgemeinen, aus der zweiten Natur selbst, hervorgehen kann.\\
+Zugleich, muss aber der Schein selbst, \glqq mich fühlen lassen, dass hier Schein [...] und nichts mehr ist\grqq\footATCite[][417.]{nietzsche_morgenrote_1999}.
+Zu Fragen demnach, ob dieses Bewusst-Werden eine Arbeit des einzelnen Individuums ist, oder ob es aus der Struktur des Allgemeinen, aus der zweiten Natur, dem Schein selbst, hervorgehen kann.\\
 
-Nietzsche Aussage über den Tod Gottes bedeutet nach der Form-Seite die Überwindung der vom Menschen gesetzten zweiten Natur (Gott), der inhaltlichen Seite nach aber, dass der Mensch Gott nicht mehr nötig hat und die Bestimmung des Gesetzes sich aus dem Menschen selbst entwickelt. 
+Nietzsche Aussage über den Tod Gottes bedeutet nach der Form-Seite die Überwindung der vom Menschen gesetzten zweiten Natur (Gott), der inhaltlichen Seite nach aber, dass der Mensch Gott nicht mehr nötig hat und die Bestimmung des Gesetzes sich aus dem Menschen selbst entwickelt. \todo[noline]{Muss Autonomie in die Einelitung hineingenommen werden?}
 In diesem Sinne ist Kants Philosophie der Versuch einer Begründung der Moral aus der reinen praktischen Vernunft und dadurch eine Begründung der Moral die nicht von Gott abhängt. 
 Ob für Nietzsche Kants Philosophie der Ursprung des Todes Gottes ist, oder bereits der Beginn des offenen Meeres, lasse ich dahingestellt, argumentiere aber selbst, dass er beides ist.
 Um also den Begriff der zweiten Natur zu erarbeiten, werde ich kurz auf Kants Autonomieformel eingehen, da hier der Versuch Gesetz und Freiheit zusammen zudenken seinen Ursprung nimmt. 
@@ -148,22 +145,25 @@ Zuerst soll der Begriff der Gewohnheit aus der Sittlichkeit, als Schritt über d
 Daraus ergibt sich der Begriff des \glqq geistigen Mechanismus\grqq, in welchem die Gewohnheit sich als \glqq geistig oder frei\grqq{} und \glqq mechanisch oder unfrei\grqq{} ergibt.\footATCite[][145]{menke_autonomie_2018} (b).
 Schließlich soll der Begriff der zweiten Natur aus Hegels Perspektive, seinen Abschluss finden in der Dialektik zwischen endlichem und unendlichem Geist und dem Doppelcharakter der zweiten Natur als Kritik und Affirmation (c).\\
 In einem \hyperref[abschnitt_2]{zweiten Schritt} soll gezeigt werden, dass bei Nietzsche ein ähnlicher Begriff der zweiten Natur aufgezeigt werden kann.\footnote{Ich halte diesen Schritt unter anderem des deshalb für sinnvoll, weil er rechtfertigt, warum ich meine, mit Nietzsche überhaupt über Menkes Begriff der Befreiung hinausgehen zu können.}
+\todo[noline]{Generell mehr Begründung, wieso Nietzsche?}
 Dabei soll bereits auf die Beantwortung der Leitfrage vorbereitet werden.
 Zunächst soll der Begriff der zweiten Natur anhand von Nietzsches Begriff des \textit{Scheins} erläutert werden (a).
 Die Befreiung aus dem (sog.) Schein wird darauffolgend in der Unterscheidung des Schauspielers und der Rolle aufgegriffen (b). 
 Abschließend sollen beide Begriffe nochmals in dem Absatz über den tollen Menschen analysiert und zusammengebracht werden (c).
 In der Darlegung Nietzsches Position wird der Begriff \glqq Bewusstsein der Scheinhaftigkeit\grqq{} bereits eine wichtige Rolle einnehmen und dient der späteren Beantwortung der Leitfrage.\\
-Im \hyperref[abschnitt_3]{dritten Abschnitt} soll die Befreiung aus der zweiten Natur erläutert werden, da diese, im Vergleich zur Befreiung aus der ersten Natur bei Hegel und Menke und letztendlich auch bei Nietzsche, uneindeutig bleibt.
+Im \hyperref[abschnitt_3]{dritten Abschnitt} soll die Befreiung aus der zweiten Natur erläutert werden, da diese, im Vergleich zur Befreiung aus der ersten Natur bei Hegel und Menke, und letztendlich auch bei Nietzsche, uneindeutig bleibt.
 Wie Befreiung aus der zweiten Natur überhaupt möglich ist und wie diese sich konkret vollzieht, ist notwendig, um zu diskutieren wie über diese hinausgegangen werden kann.\\
 Im vierten und \hyperref[abschnitt_4]{letzten Schritt} soll es abschließend zu einer Diskussion und Beantwortung der Leitfrage kommen. 
 
 
 \chapter{Hauptteil}
+\todo[noline]{Hier besser Einschub über Geist $\leftrightarrow$ Natur?.}
 Die folgende Diskussion um Befreiung und zweite Natur wird ihren Ausgangspunkt in der Kritik der Autonomie finden, aus dem ich zu Hegels Begriff der Sittlichkeit kommen werde. 
 Es mag merkwürdig anmuten, dass ich gerade mit der Kritik an der Autonomie beginne und hier, als Ausgangspunkt dieser Kritik, den Begriff einer positiven Bestimmung der Freiheit hinterfrage,
 wo die Leitfrage meiner Arbeit doch letztendlich auf einen positiven Begriff der Freiheit hinausläuft, auf eine Befreiung, die die Unfreiheit hinter sich lassen kann.
 Dennoch und trotzdem, liegt meiner Arbeit, wie den beiden Autoren, zu jeder Zeit Adornos Bestimmung der Freiheit als Befreiung aus der jeweiligen Unfreiheit zu Grunde.
 Der Versuch eines Hinausgehen, über den Begriff der Befreiung hinaus oder durch ihn hindurch, hin zu einem positiven Begriff von Freiheit, ist ohne die Kritik an dem positiven Begriff der Freiheit, zum Scheitern verurteilt.
+\todo[noline]{Was ist genau mit positiver Freiheitbegriff gemeint?}
 Meine Vorstellung eines positiv bestimmten Freiheitsbegriffs, oder die Befreiung über die Befreiung hinaus, ist die Befreiung, die sich als Unfreiheit weiß; die Befreiung also, die positiv bestimmt ist, aber nur in der Negation realisiert werden kann. 
 
 \section{Zweite Natur bei Hegel}\label{abschnitt_1}
@@ -189,6 +189,7 @@ Hieran zeigt sich, dass in der Sittlichkeit das Paradox der Autonomie erneut auf
 Anhand des Zitates, werde ich die sich hier entfaltende Dialektik von Geist und Mechanismus, sowie Kritik und Affirmation beschreiben und daraus die Begriffe zweite Natur und Befreiung erarbeiten und an ihnen den Ausweg aus dem Paradox skizzieren.
 
 \subsection{(a) Autonomie und Sittlichkeit}
+\todo[noline]{Alles aus Gott ist tot herleiten?}
 Der Tod Gottes bei Nietzsche hat, wie in der Einleitung bereits erwähnt, nicht bloß die Bedeutung der Befreiung aus der zweiten Natur, sondern ist ebenso eine Reflexion auf die Umwälzung innerhalb der (Moral-)Philosophie seines und des vorangegangenen Jahrhunderts. 
 Waren doch die Gesetze der Moral durch Gott bestimmt und die Freiheit als die Befolgung dieser Gottesgesetze, so entzieht die Überwindung Gottes diese Gesetze der außer dem Menschen liegende Macht. 
 Der Tod Gottes beginnt deshalb auch dort, wo die Moral nicht mehr bloß durch Gott bestimmt ist. 
@@ -207,14 +208,14 @@ entweder folgt die Selbstgesetzgebung aus einem anderen, äußeren Gesetz (äuß
 Indem Kant die Autonomieformel beinahe wörtlich wiederholt, aber den Fokus von \textit{Selbst}Gesetzgebung zu \textit{eigener} Gesetzgebung verlegt, beschreibt er das Gesetz nicht als für das Subjekt bereits vorhanden, welches dieses nur auswählt, sondern als Gesetz des Subjekts selbst.
 Diese eigenen Gesetze hätten nach Kant gleichwohl allgemeinen Charakter.\footfullcite[Vgl.][65]{kant_kritik_2014} 
 Das Subjekt wird also als Urheber des Gesetzes gesehen, doch wie kann dieses eigene Gesetz allgemein gültige Notwendigkeit haben, wie kann es als objektives Gesetz der Vernunft gelten?
-Die Antwort auf diese Frage, liegt in dem kategorischen Imperativ: \glqq \textit{handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde}\grqq\footATCite[][51. Im Original gesperrt gedruckt]{kant_kritik_2014}.
+Die Antwort auf diese Frage liegt in dem kategorischen Imperativ: \glqq \textit{handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde}\grqq\footATCite[][51. Im Original gesperrt gedruckt]{kant_kritik_2014}.
 Selbstgesetzgebung bedeutet bei Kant also nicht, dass das Subjekt sich ein bestehendes Gesetz gibt, sondern \glqq seinen Antrieben die \textit{Form} des Gesetzes zu geben\grqq\footATCite[][24]{menke_autonomie_2018}.
 Autonomie bedeutet bei Kant demnach durch die Wahl der Maxime diese zum allgemeinen Gesetz zu machen. 
 Das Gesetz ist also wesentlich durch die Freiheit bestimmt.
 Ebenso auch die Freiheit durch dass Gesetz, denn wie alles Gesetzen unterliegt, müsse dies auch für den freien Willen gelten.
-Die Kausalität des freien Willen ist \glqq die Eigenschaft des Willens, sich selbst ein Gesetz zu sein\grqq\footATCite[][81]{kant_kritik_2014}.\\
+Und die Kausalität des freien Willen ist \glqq die Eigenschaft des Willens, sich selbst ein Gesetz zu sein\grqq\footATCite[][81]{kant_kritik_2014}.\\
 
-Damit ist bei Kant das erreicht, was ich oben als das Ziel des Begriffs der Autonomie definierte: 
+Damit ist bei Kant das erreicht, was ich oben als das Ziel des Begriffs der Autonomie aufzeigte: 
 das normative Gesetz ist zurück bei dem Menschen und obliegt nicht einer Macht außerhalb des Menschen (Gott), zugleich wird Freiheit nicht verstanden als blindes Unterliegen der sinnlichen Triebfedern. 
 Freiheit ist bei Kant negativ bestimmt als das Frei-Sein von sinnlichen Antrieben, aber zugleich in dem Begriff der Selbstgesetzgebung positiv realisiert. 
 Der Mensch \textit{ist} also frei. 
@@ -225,8 +226,10 @@ In diesem wiederholt sich allerdings nach Hegel das Paradox der Autonomie. Der k
 Die Maxime muss die Form des allgemeinen Gesetzes haben, welches aber selbst keine Bedingungen hat:
 es \glqq bleibt damit nur die abstrakte Allgemeinheit [...] oder das Abstrakte \textit{Positive}, dass Bestimmungslose zu ihrer Bestimmung\grqq{} und Kants Autonomieformel verkommt zum \glqq leeren Formalismus\grqq.\footATCite[][139, §135]{hegel_grundlinien_2017}
 Das Paradox besteht darin, dass die Freiheit nur in der Inhaltslosigkeit zu denken ist, der Inhalt kann aber nur von außen hinzukommen, liegt also nicht mehr innerhalb der Selbstgesetzgebung und der Traum der positiven Realisation der Freiheit verpufft.
+\todo[noline]{Umformulieren?}
 
 \subsubsection{Hegels Auswegen in der Sittlichkeit}
+
 
 \subsubsection{Die Wiederholung der Autonomie}
 
@@ -237,24 +240,31 @@ Das Paradox besteht darin, dass die Freiheit nur in der Inhaltslosigkeit zu denk
 \subsection{(a) Was bedeutet Schein?}
 \subsection{(b) Der Schauspieler und die Rolle}
 \subsection{Exkurs: Nietzsche - Natur und Antisemitismus}
+\todo[noline]{Dieser Abschnitt muss allgemein überarbeitet werden. Die Frage ist, ob das Thema Antisemitismus nicht den Rahmen sprengt an dieser Stelle. Auch als Exkurs}
 In dem vorherigen Abschnitt stellt Nietzsche den Schauspieler und die Rolle gegenüber. 
 In dieser Gegenüberstellung tritt noch eine dritte \glqq Persönlichkeit\grqq{} auf: der Baummeister. 
-Außerdem identifiziert Nietzsche den Schauspieler mit den Juden und den Frauen. 
-Diese Gegenüberstellungen und Identifizierungen möchte ich zum Anlass nehmen auf einen weiteren Punkt einzugehen, der mit den Gegenstand der Arbeit nicht Unmittelbar, aber Mittelbar zusammenhängt. 
-Für Nietzsche ist, wie Eingangs beschrieben, Schein nicht der Gegensatz zu dem Wesen, zur Natur, sondern Schein, oder Kunst, ist das Wirkende und Lebende selber.\footATCite[Vgl.][416]{nietzsche_morgenrote_1999} 
-Diese Stelle, und andere vorher erwähnte Stellen, legen nahe, dass es für Nietzsche überhaupt gar nicht etwas, wie (erste) Natur gibt, sondern, dass alles Schein, zweite, vom Menschen geschaffene Natur ist.
-Wie verhält sich dies allerdings zu dem Baumeister, der sich durch Kraft und Mut auszeichnet, die Gesellschaft zu bauen, für die \glqq wir\grqq{} nicht mehr das richtige Material sind etc. 
-Der im Gegensatz zu dem Schauspieler, dem Künstler, dem Wechselhaften, Ungebundenen, Heimatlosen steht, der \glqq natürlich\grqq{} und \glqq von Natur aus\grqq{} so ist.\\
-Diese Gegenüberstellung erscheint bei Nietzsche zunächst, als Antisemitismus. 
-Dem Schauspieler, den Frauen, den Juden wird der Baummeister, der ehrliche, mutige, beinahe mag man sagen \glqq deutsche\grqq{} Wesenszug entgegengestellt.
-Das wir alle schon zu sehr Schauspieler geworden seinen, zu sehr amerikanisiert seien, wie Nietzsche schreibt, wirkt wie die völkische, oder zumindest konservative  Kritik an der jüdischen, wahlweise liberalen oder bolschewikischen Verschwörung.
+Außerdem vergleicht, bzw. identifiziert Nietzsche den Schauspieler mit den Juden und den Frauen (\glqq Welcher gute Schauspieler ist heute nicht Jude\grqq\footATCite[][608]{nietzsche_morgenrote_1999}).
+Diese Gegenüberstellungen und Identifizierungen möchte ich zum Anlass nehmen auf einen weiteren Punkt einzugehen, der mit den Gegenstand der Arbeit nicht unmittelbar, aber mittelbar zusammenhängt. 
+Für Nietzsche ist, wie eingangs beschrieben, Schein nicht der Gegensatz zu dem Wesen, zur Natur, sondern Schein, oder Kunst, ist das Wirkende und Lebende selber.\footATCite[Vgl.][416]{nietzsche_morgenrote_1999} 
+Diese Stelle, und andere vorher erwähnte Stellen, legen nahe, dass es für Nietzsche überhaupt gar nicht etwas, wie erste Natur gibt, sondern, dass alles Schein, zweite, vom Menschen geschaffene Natur ist.
+Zugleich ist bei Nietzsche häufig eine Unterscheidung zwischen den \glqq Vornehmen\grqq{} und den \glqq Gemeinen\grqq{} aufzufinden, in dem diese Unterschiede von Nietzsche scheinbar als natürliche Unterschiede aufgezeigt werden. 
+\todo[noline]{Zitate finden: Genealogie d. Moral/ Jenseits von G u. B.}
+Wie stellt sich an diesen Stellen also die Frage nach der (ersten) Natur?
+Wenn der Schauspieler eigentlich der von Nietzsche affirmierte Charakter ist (so jedenfalls die Annahme), wie verhält sich es sich mit dem Baummeister, der als dieser Natürliche, Vornehme gesehen werden kann? 
+Der Baumeister zeichnet sich aus durch Kraft und Mut und dadurch die Gesellschaft zu bauen, für die \glqq wir\grqq{} nicht mehr das richtige Material sind etc. 
+Er steht im Gegensatz zu dem Schauspieler, dem Künstler, dem Wechselhaften, Ungebundenen, Heimatlosen. 
+Er scheint eben das Natürliche zu verkörpern, er ist der, der \glqq von Natur aus\grqq{} so ist und darin die alten Werte aufbewahrt.\\
+Diese Gegenüberstellung erscheint bei Nietzsche zunächst antisemitisch:
+dem Schauspieler, den Frauen, den Juden wird der Baummeister, der ehrliche, mutige, beinahe mag man sagen \glqq deutsche\grqq{} Wesenszug entgegengestellt.
+Das wir alle schon zu sehr Schauspieler geworden seinen oder der \glqq Amerikaner-Glaube\grqq\footATCite[][596]{nietzsche_morgenrote_1999} immer weiter nach Europa dringt, wirkt wie die völkische, oder zumindest konservative  Kritik an der jüdischen, wahlweise liberalen oder bolschewikischen Verschwörung.
 Auf ähnliche Weise könnten hier Nietzsches Beschäftigungen mit dem \glqq Sklavenaufstand der Moral\grqq{} herangezogen werden, in welchen Nietzsche die Schwachen dafür kritisiert aus einem Gefühl der Unterlegenheit heraus den Starken ihre Moral aufzuzwingen. 
 Die Sklavenmoral steht bei Nietzsche im schroffen Gegensatz zu der Moral \glqq alle[r] vornehme[n] Moral[, die] aus einem triumphierenden Ja zu sich selbst herauswächst\grqq\footfullcite[][S. 10?]{nietzsche_jenseits_2014} 
-An dieser Stelle wird jedoch ersichtlich, dass Nietzsche Identifikation des Schauspielers mit den Juden und Frauen gerade aus der Entgegengesetzten Richtung stammt:
-die Scheinbare Kritik an den Juden, sie sein \glqq jenes Volk der Anpassungskunst par excellence\grqq\footATCite[][609]{nietzsche_morgenrote_1999} mutet antisemitische, muss aber aus dem selben Blickwinkel gedeutet werden, aus dem heraus Nietzsche die Sklavenmoral kritisiert:
-dann wird deutlich, dass Nietzsches Kritik sich nicht gegen die Juden wendet, sondern viel gegen die, die aus einem Gefühl der eigenen Unterlegenheit die Macht der Juden aus der Perspektive der Sklavenmoral heraus kritisieren. 
-Anders gesagt: aus der Perspektive Nietzsches Kritik am Ressentiment, gehören nicht die Juden und die Frauen und die Schauspieler zum Ressentiment, sondern gerade die Antisemiten, die Gender-Kritiker, die Baumeister. 
-Auch an den Stellen also, an den Nietzsche scheinbar das Natürliche, Angeborene, hervorhebt, zeigt sich, dass sich dieses eben nur durch das \glqq Ja-sagen zu sich selber\grqq{} durch das Sich-selbst-Hervorbringen, das Spielen und mit der eigenen \glqq Natur\grqq{} entwickelt, dass nur diejenigen Vornehm sind, die ihre scheinbare Natur bespielen und wieder in Kunst aufgehen lassen.
+An dieser Stelle wird jedoch ersichtlich, dass Nietzsches Identifikation des Schauspielers mit den Juden und Frauen gerade aus der entgegengesetzten Richtung stammt:
+die scheinbare Kritik an den Juden, sie seien \glqq jenes Volk der Anpassungskunst par excellence\grqq\footATCite[][609]{nietzsche_morgenrote_1999} mutet antisemitisch, muss aber aus dem selben Blickwinkel gedeutet werden, aus dem heraus Nietzsche die Sklavenmoral kritisiert:
+dann wird deutlich, dass Nietzsches Kritik sich nicht gegen die Schauspieler wendet, sondern viel mehr gegen jene, die aus einem Gefühl der eigenen Unterlegenheit die Macht dieser aus der Perspektive der Sklavenmoral heraus kritisieren. 
+Anders gesagt: aus der Perspektive Nietzsches Kritik am Ressentiment gehören nicht die Juden und die Frauen und die Schauspieler zum Ressentiment, sondern gerade die Antisemiten, die Gender-Kritiker, die Baumeister. 
+\todo[noline]{Letzte Argumentation nicht ganz schlüssig}
+Auch an den Stellen also, an den Nietzsche scheinbar das Natürliche, oder Angeborene, hervorhebt, zeigt sich, dass sich dieses nur durch das \glqq Ja-sagen zu sich selber\grqq{} durch das Sich-selbst-Hervorbringen, das Spielen und mit der eigenen \glqq Natur\grqq{} entwickelt, dass nur diejenigen vornehm sind, die ihre scheinbare Natur bespielen und wieder in Kunst aufgehen lassen.
 
 \subsection{(c) Gott ist tot!}
 \section{Was heißt Befreiung aus der zweiten Natur}\label{abschnitt_3}
@@ -265,5 +275,6 @@ Auch an den Stellen also, an den Nietzsche scheinbar das Natürliche, Angeborene
 \backmatter
 
 \printbibliography
+\listoftodos
  
 \end{document}
