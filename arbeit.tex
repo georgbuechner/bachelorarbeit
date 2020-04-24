@@ -32,20 +32,19 @@
 \addbibresource{literatur.bib}
 
 \usepackage{xparse}
+\DeclareDocumentCommand \ATcite{m}{\citeauthor{#1}, \emph{\citefield{#1}{shorttitle}}}
 \DeclareDocumentCommand \footATCite{ o o m } {%
-  \IfNoValueTF {#2}%
-            {%
-             \IfNoValueTF {#2}%
-                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}%
-                {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}%
-            }%
-            {%
-              \IfNoValueTF {#1}%
-                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}%
-                 {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}%
-            }%
-  }
+  \IfNoValueTF {#2}{%
+         \IfNoValueTF {#2}%
+            {\footnote{\ATcite{#3}.}}%
+            {\footnote{#1 \ATcite{#3}.}}}%
+         {%
+         \IfNoValueTF {#1}%
+            {\footnote{\ATcite{#3}, S. #2.}}%
+            {\footnote{#1 \ATcite{#3}, S. #2.}}}}
 
+\DeclareDocumentCommand \qq{m}{\glqq #1\grqq}
+\DeclareDocumentCommand \q{m}{\glq #1\glq}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -229,9 +228,45 @@ Das Paradox besteht darin, dass die Freiheit nur in der Inhaltslosigkeit zu denk
 \todo[noline]{Umformulieren?}
 
 \subsubsection{Hegels Auswegen in der Sittlichkeit}
+Worin genau besteht nun Hegels Ausweg aus dem Paradox?
+Die Kritik Hegels, an Kants Begriff der Autonomie, hat seinen Grund auch in dem, was ich weiter oben als Notwendigkeit der Verknüpfung von Abstraktion vom Inhalt (also bestimmungslosigkeit) und Bestimmung (sich einen Inhalt geben), nannte. 
+Freiheit kann letztendlich nur dort herrschen, wo dieser Doppelcharakter verwirklicht ist.\footnote{Wie wir im Folgenden und letztendlich in dem Begriff der Befreiung sehen werden, ist das so auch dies nicht ganz richtig.}
+Dieser Doppelcharakter ist der, welcher sich letztendlich in der Sittlichkeit ausdrückt, welche Hegel als \qq{die Idee der Freiheit, als das lebendige Gute, das in dem Selbstbewusstsein sein Wissen, Wollen und durch dessen \textit{Handeln} seine Wirklichkeit [...] hat}\footATCite[][161, §142. Hervorhebung von mir]{hegel_grundlinien_2017}.
+Indem Hegel hier den Begriff der Handlung einführt, bekommt der Begriff der Autonomie eine neue Wendung. 
+Das Gute hat in dem Selbstbewusstsein sein Wissen und Wollen, aber in seiner \emph{Handlung} seine Wirklichkeit. \todo[noline]{Was beutet an der Stelle Wissen, und was das \qq{lebendige} Gute}
+Und in dieser Wirklichkeit erst ist es \emph{lebendig}.
+Dass die Idee der Freiheit als das \emph{lebendige} Gute aufgefasst wird, könnte wieder als Gegenthese zum leeren Formalismus bei Kant gelesen werden:
+nur in dem die Individuen handelnd das Gute verwirklichen \emph{lebt} es, nur so ist die Idee der Freiheit verwirklicht und das ist die Sittlichkeit.
+Diese Handlung ist nun selbstverständlich nicht beliebige Handlung, sondern die Handlung innerhalb einer bestimmten (sittlichen) Praxis.\footnote{Bzw. die Praxis \emph{ist} sittlich, gerade indem Subjekte handelnd an ihr Teilnehmen.}
+Damit ist der Begriff der Sittlichkeit wesentlich sozial bestimmt.
+Menke beschreibt dies als das soziales Teilnehmen an einer Praxis. \footATCite[Vgl.][28 ff]{menke_autonomie_2018}
+Von der Seite der Teilnahme gedacht ist so zu verstehen, inwiefern das Gute zu seine, Inhalt kommt: im Gegensatz nämlich zum \qq{abstrakten Guten} (bei Kant), ist das \qq{objektiv Sittliche [...] durch die Subjektivität \emph{konkrete} Substanz}\footATCite[][161, §144]{hegel_grundlinien_2017}.
+Das objektiv Sittliche, oder das Gesetz, ist damit \emph{das Eigene} des Subjekts, in dem es durch dessen handeln sich konstituiert. 
+Dies Gesetz hat, nach Hegel, \qq{eine [...]  unendlich festere Autorität und Macht, als das Sein der Natur}\footATCite[][164, §146]{hegel_grundlinien_2017}
+Dies kann man sich, um einen ersten Bogen zu Nietzsche zu schlagen, an dem Beispiel Gottes verdeutlichen: 
+indem der Mensch Gott durch sein Handeln (beten, zur Kirche gehen, etc.) schafft, schafft er ihn als ein Gesetz, welches die der Natur ersetzt. 
+Wie ja wirklich die Macht der Natur durch Gott aufgehoben und dieser für z.B. Naturkatastrophen verantwortlich gemacht wird.
+Zugleich gibt Gott (mit den Zehn Geboten) den Mensch seine ersten Gesetze.\\
 
+In der sozialen Teilnahme an einer Praxis, und das ist das entscheidende, konstruiert das Subjekt jedoch nicht nur das Gesetz, als ein dann ihm fremdes, sondern es konstituiert damit auch sich selbst. 
+Damit sei zweierlei gesagt: 1. sind die Gesetze, oder ist das Gesetz, welches er in einer bestimmten Praxis konstituiert, dem Subjekt nicht fremd und 2. haben die von dem Subjekt konstituierten Gesetz wiederum konstituierenden Einfluss auf das Subjekt. 
+Hegel drückt dies aus, indem er schreibt, die Gesetzte sind \qq{dem Subjekt nicht ein Fremdes, sondern es gibt das \emph{Zeugnis des Geistes} von ihnen als von \emph{seinem eigenen Wesen}}\footATCite[][162, §147]{hegel_grundlinien_2017}.
+Die Gesetze stehen dem Subjekt 1. nicht Fremd gegenüber, da sie durch seine eigene Handlung gesetzt sind und aus dem selben Grund konstituieren sie 2. das Subjekt, da es seine eigenen autonomen Handlungen sind;
+es wird konstituiert \qq{durch eben die Gesetze, die die Praxis konstituieren}\footATCite[][30]{menke_autonomie_2018}, und das sind seine eigenen.
+Sittlichkeit und soziale Teilhabe so verstanden, lösen somit das Paradox der Autonomie auf, denn die Gesetze sind hier sowohl inhaltlich bestimmt, als auch autonom gesetzt.
+Bevor ich nun dazu übergehe zu beschreiben, wie sich in der Sittlichkeit das Paradox dennoch wiederholt, sei an dieser Stelle schon darauf verwiesen, dass Hegel den Moment, in welchem \qq{das Sittliche die wirkliche Lebendigkeit des Selbstbewußtseins ist}, als \qq{Verhältnis-lose Identität}\footATCite[][163, §147]{hegel_grundlinien_2017} beschreibt. 
+Von diesem Punkt aus ist es schwer sich eine Transformation des Gegebenen vorzustellen.
+Wie diese Transformation, oder die Befreiung in der Sittlichkeit zu denken ist, werde ich im \hyperref[abschnitt_3]{dritten Abschnitt} diskutieren.
 
-\subsubsection{Die Wiederholung der Autonomie}
+\subsubsection{Die Wiederholung des Paradox}
+Wie oben bereits in der Analogie zu Gott ewähnt, schafft der Mensch in der Sittlichkeit sich Gesete, die zwar 1. das Paradox der Autonomie aufheben, d.h. sie sind eigene, inhaltlich bestimmte und zugleich Wesens-Konstituierend Gesetze, aber sie werden 2. zu einer Macht, die noch die Macht der Natur überbietet in der Autorität für den Menschen.
+D.h. das Schaffen (oder Setzen) von Gott, gibt den Menschen die Moral, aber verskalvt ihn zu gleich einer neuen äußeren Natur, einer \emph{zweiten} Natur: \qq{das Sittliche [erscheint] als eine \emph{zweite Natur}}.
+\footnote{\ATcite{hegel_grundlinien_2017}, S. 166, §151.
+Wie hier der Begriff des \qq{Erscheinens} zu verstehen ist, ist mir etwas unschlüssig. 
+Als Lesart schlage ich vor, dass Hegel so verstanden werden muss, dass Sittlichkeit als zweite \emph{Natur} und nicht als \emph{zweite} Natur erscheint. 
+Und sie \emph{erscheint}, weil es \emph{zweite}, vom Menschen gesetzte Natur ist, darum, denke ich, spricht Hegel von \emph{Erscheinen} nicht von \emph{Sein}.
+Würde sie übrigens, damit greife ich auf \hyperref[abschnitt_2]{den zweiten Abschnitt} vor, als \emph{zweite} Natur erscheinen, wäre in gewissermaßen bereits erfüllt, was Nietzsche fordert: dass der Schein mich spüren lässt, dass er Schein und nichts weiter ist. \footATCite[Vlg.][416, §54]{nietzsche_morgenrote_1999}.}
+
 
 
 \subsection{(b) Dialektik von Geist und Mechanismus}
