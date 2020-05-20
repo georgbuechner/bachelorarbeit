@@ -212,10 +212,11 @@
       \field{sortinit}{N}
       \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{shorttitle}
       \field{edition}{Neuausgabe 1999, 13. Auflage 2014}
       \field{number}{Band 5}
       \field{series}{kritische Studienausgabe in 15 Bänden; KSA}
+      \field{shorttitle}{Jenseits}
       \field{title}{Jenseits von Gut und Böse. Zur Genealogie der Moral}
       \field{year}{2014}
       \field{dateera}{ce}

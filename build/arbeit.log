@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  7 MAY 2020 23:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.10)  20 MAY 2020 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -118,6 +118,10 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen147
 \SOUL@ulht=\dimen148
 )
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
@@ -209,7 +213,7 @@ ex
 \pgf@yc=\dimen158
 \pgf@xd=\dimen159
 \pgf@yd=\dimen160
-\w@pgf@writea=\write3
+\w@pgf@writea=\write4
 \r@pgf@reada=\read3
 \c@pgf@counta=\count182
 \c@pgf@countb=\count183
@@ -687,7 +691,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibparsep=\skip71
 \bibhang=\skip72
 \blx@bcfin=\read4
-\blx@bcfout=\write4
+\blx@bcfout=\write5
 \blx@langwohyphens=\language85
 \c@mincomprange=\count333
 \c@maxcomprange=\count334
@@ -873,22 +877,22 @@ Package csquotes Info: ... found 'babel' package.
 (./arbeit.aux)
 \openout1 = `arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -951,10 +955,10 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 75.
+loading the todonotes package. on input line 76.
 
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 76.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -966,13 +970,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count426
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
 
 (./arbeit.out) (./arbeit.out)
-\@outlinefile=\write5
-\openout5 = `arbeit.out'.
+\@outlinefile=\write6
+\openout6 = `arbeit.out'.
 
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -994,69 +998,69 @@ File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `arbeit.bcf'.
+\openout5 = `arbeit.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'arbeit.bbl' found.
 
 (./arbeit.bbl)
-Package biblatex Info: Reference section=0 on input line 75.
-Package biblatex Info: Reference segment=0 on input line 75.
+Package biblatex Info: Reference section=0 on input line 76.
+Package biblatex Info: Reference segment=0 on input line 76.
 <images/logo.png, id=87, 237.88875pt x 213.79875pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 78.
+Package pdftex.def Info: images/logo.png  used on input line 79.
 (pdftex.def)             Requested size: 237.88815pt x 213.79822pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 78.
+(Font)              <14.4> on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 79.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 81.
+ine 82.
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 81--81
+Overfull \hbox (54.5pt too wide) in paragraph at lines 82--82
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 81--81
+Overfull \hbox (54.5pt too wide) in paragraph at lines 82--82
 [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 83.
+(Font)              <12> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 83.
+(Font)              <8> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 83.
+(Font)              <6> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 83.
+(Font)              <5> on input line 84.
 [1
 
 
 ] (./arbeit.toc)
-\tf@toc=\write6
-\openout6 = `arbeit.toc'.
+\tf@toc=\write7
+\openout7 = `arbeit.toc'.
 
  [2
 
 ]
 Kapitel 1.
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 117--117
+Overfull \hbox (54.5pt too wide) in paragraph at lines 118--118
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 117--117
+Overfull \hbox (54.5pt too wide) in paragraph at lines 118--118
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--125
+Underfull \hbox (badness 10000) in paragraph at lines 107--126
 
  []
 
@@ -1064,32 +1068,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 
+l.126 
        [1
 
 
 ]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 126--126
+Overfull \hbox (54.5pt too wide) in paragraph at lines 127--127
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 126--126
+Overfull \hbox (54.5pt too wide) in paragraph at lines 127--127
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--139
+Underfull \hbox (badness 10000) in paragraph at lines 127--140
 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 150--150
+Overfull \hbox (54.5pt too wide) in paragraph at lines 151--151
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 150--150
+Overfull \hbox (54.5pt too wide) in paragraph at lines 151--151
 [][] 
  []
 
@@ -1102,162 +1106,188 @@ This may cause the page layout to be inconsistent, however.
 [2] [3]
 Kapitel 2.
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
+
+ []
+
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 175--175
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 162--162
+Overfull \hbox (54.5pt too wide) in paragraph at lines 175--175
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 168--168
+Overfull \hbox (54.5pt too wide) in paragraph at lines 176--176
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 168--168
+Overfull \hbox (54.5pt too wide) in paragraph at lines 176--176
 [][] 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--186
+
+ []
+
+
+LaTeX Warning: Marginpar on page 4 moved.
 
 [4
 
 ]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--205
+
+ []
+
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 208--208
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 194--194
+Overfull \hbox (54.5pt too wide) in paragraph at lines 208--208
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--219
-
  []
 
 [5]
-Overfull \hbox (1.49043pt too wide) in paragraph at lines 231--231
-[][][]\T1/cmr/m/n/12 Umformulieren?[]  
- []
 
+LaTeX Warning: Marginpar on page 6 moved.
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 231--231
+Excluding 'comment' comment. [6]
+Overfull \hbox (54.5pt too wide) in paragraph at lines 258--258
 [][] 
  []
 
 
-Overfull \hbox (1.49043pt too wide) in paragraph at lines 231--231
-[][][]\T1/cmr/m/n/12 Umformulieren?[]  
- []
-
-
-Overfull \hbox (54.5pt too wide) in paragraph at lines 231--231
-[][] 
- []
-
-[6]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 239--239
+Overfull \hbox (54.5pt too wide) in paragraph at lines 258--258
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 249--267
+
+ []
+
+[7]
+Overfull \hbox (54.5pt too wide) in paragraph at lines 283--283
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--264
-
- []
-
-[7] [8] [9]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 321--321
+Overfull \hbox (54.5pt too wide) in paragraph at lines 283--283
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 321--321
+Overfull \hbox (54.5pt too wide) in paragraph at lines 287--287
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 329--329
+Overfull \hbox (54.5pt too wide) in paragraph at lines 287--287
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 281--312
+
+ []
+
+[8] [9] [10] [11]
+Overfull \hbox (54.5pt too wide) in paragraph at lines 369--369
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 344--344
+Overfull \hbox (54.5pt too wide) in paragraph at lines 369--369
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 344--344
+Overfull \hbox (54.5pt too wide) in paragraph at lines 377--377
 [][] 
  []
 
-[10] [11] [12]
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 377--377
+[][] 
+ []
+
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 392--392
+[][] 
+ []
+
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 392--392
+[][] 
+ []
+
+[12] [13] [14]
 Kapitel 3.
-[13
+[15
 
-] [14
+] [16
 
 
 ] (./arbeit.tdo)
-\tf@tdo=\write7
-\openout7 = `arbeit.tdo'.
+\tf@tdo=\write8
+\openout8 = `arbeit.tdo'.
 
- [15
+ [17
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
  (./arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: A6ED4555FB759845FE55A983D16ABE7D;1037.
 Package logreq Info: Writing requests to 'arbeit.run.xml'.
 \openout1 = `arbeit.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
  ) 
 Here is how much of TeX's memory you used:
- 26247 strings out of 481239
- 499497 string characters out of 5920378
- 1191019 words of memory out of 5000000
- 40944 multiletter control sequences out of 15000+600000
+ 26300 strings out of 481239
+ 500336 string characters out of 5920377
+ 1192028 words of memory out of 5000000
+ 40983 multiletter control sequences out of 15000+600000
  546911 words of font info for 51 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  68i,11n,83p,926b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.44} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.49} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.43} has been referenced but does not exis
 t, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-rm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on arbeit.pdf (18 pages, 324542 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fo
+nts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on arbeit.pdf (20 pages, 325041 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 354 compressed objects within 4 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 433 PDF objects out of 1000 (max. 8388607)
+ 377 compressed objects within 4 object streams
+ 117 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
