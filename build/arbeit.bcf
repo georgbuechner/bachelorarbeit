@@ -40,7 +40,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -163,7 +163,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>anyt</bcf:value>
+      <bcf:value>nty</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -171,11 +171,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>true</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>full</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -412,7 +412,8 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">ibidpage</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -493,7 +494,6 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
@@ -579,7 +579,6 @@
     <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
     <bcf:option datatype="integer" backendout="1">maxbibnames</bcf:option>
@@ -2184,122 +2183,76 @@
   <bcf:section number="0">
     <bcf:citekey order="1">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="2">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="3">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="4">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="5">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="3">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="4">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="5">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="6">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="7">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="8">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="7">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="8">adorno_negative_dialektik_2003</bcf:citekey>
     <bcf:citekey order="9">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="10">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="11">adorno_negative_dialektik_2003</bcf:citekey>
-    <bcf:citekey order="12">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="13">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="14">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="15">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="16">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="17">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="18">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="19">nietzsche_jenseits_2014</bcf:citekey>
-    <bcf:citekey order="20">nietzsche_jenseits_2014</bcf:citekey>
-    <bcf:citekey order="21">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="22">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="23">nietzsche_jenseits_2014</bcf:citekey>
-    <bcf:citekey order="24">nietzsche_jenseits_2014</bcf:citekey>
-    <bcf:citekey order="25">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="26">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="27">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="28">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="29">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="30">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="31">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="32">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="33">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="34">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="35">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="36">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="10">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="11">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="12">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="13">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="14">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="15">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="16">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="17">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="18">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="19">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="20">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="21">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="22">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="23">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="24">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="25">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="26">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="27">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="28">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="29">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="30">kant_kritik_2014</bcf:citekey>
+    <bcf:citekey order="31">kant_kritik_2014</bcf:citekey>
+    <bcf:citekey order="32">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="33">kant_kritik_2014</bcf:citekey>
+    <bcf:citekey order="34">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="35">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="36">hegel_grundlinien_2017</bcf:citekey>
     <bcf:citekey order="37">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="38">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="39">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="40">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="41">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="42">kant_kritik_2014</bcf:citekey>
-    <bcf:citekey order="43">kant_kritik_2014</bcf:citekey>
-    <bcf:citekey order="44">kant_kritik_2014</bcf:citekey>
-    <bcf:citekey order="45">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="46">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="47">kant_kritik_2014</bcf:citekey>
-    <bcf:citekey order="48">kant_kritik_2014</bcf:citekey>
-    <bcf:citekey order="49">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="38">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="39">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="40">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="41">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="42">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="43">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="44">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="45">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="46">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="47">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="48">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="49">hegel_grundlinien_2017</bcf:citekey>
     <bcf:citekey order="50">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="51">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="51">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="52">hegel_grundlinien_2017</bcf:citekey>
     <bcf:citekey order="53">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="54">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="55">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="56">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="57">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="58">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="59">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="60">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="61">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="62">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="63">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="64">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="65">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="66">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="67">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="68">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="69">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="70">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="71">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="72">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="73">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="74">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="75">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="76">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="77">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="78">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="79">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="80">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="81">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="82">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="83">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="84">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="85">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="86">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="87">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="88">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="89">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="90">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="91">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="92">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="93">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="94">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="95">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="96">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="97">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="98">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="99">nietzsche_jenseits_2014</bcf:citekey>
-    <bcf:citekey order="100">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="101">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="102">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="103">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="104">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="105">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="54">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="55">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="56">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="57">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="58">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="59">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="60">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="61">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="62">khurana_freiheit_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="anyt">
+  <bcf:sortingtemplate name="nty">
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="2">
-      <bcf:sortitem order="1">labelalpha</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3" final="1">
+    <bcf:sort order="2" final="1">
       <bcf:sortitem order="1">sortkey</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="4">
+    <bcf:sort order="3">
       <bcf:sortitem order="1">sortname</bcf:sortitem>
       <bcf:sortitem order="2">author</bcf:sortitem>
       <bcf:sortitem order="3">editor</bcf:sortitem>
@@ -2307,24 +2260,24 @@
       <bcf:sortitem order="5">sorttitle</bcf:sortitem>
       <bcf:sortitem order="6">title</bcf:sortitem>
     </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
     <bcf:sort order="5">
       <bcf:sortitem order="1">sortyear</bcf:sortitem>
       <bcf:sortitem order="2">year</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="6">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="7">
       <bcf:sortitem order="1">volume</bcf:sortitem>
       <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="anyt/global//global/global"
+                name="nty/global//global/global"
                 type="entry"
-                sortingtemplatename="anyt"
+                sortingtemplatename="nty"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

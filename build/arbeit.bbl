@@ -18,14 +18,15 @@
 
 
 \refsection{0}
-  \datalist[entry]{anyt/global//global/global}
+  \datalist[entry]{nty/global//global/global}
     \entry{adorno_negative_dialektik_2003}{book}{}
       \name{author}{1}{}{%
-        {{hash=e4e68aa80bd065ec444004f0b1b852a2}{%
+        {{un=0,uniquepart=base,hash=e4e68aa80bd065ec444004f0b1b852a2}{%
            family={Adorno},
            familyi={A\bibinitperiod},
            given={Theodor\bibnamedelima W.},
-           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Frankfurt am Main}%
@@ -39,7 +40,6 @@
       \strng{authorbibnamehash}{e4e68aa80bd065ec444004f0b1b852a2}
       \strng{authornamehash}{e4e68aa80bd065ec444004f0b1b852a2}
       \strng{authorfullhash}{e4e68aa80bd065ec444004f0b1b852a2}
-      \field{labelalpha}{Ado03}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
@@ -53,11 +53,12 @@
     \endentry
     \entry{hegel_grundlinien_2017}{book}{}
       \name{author}{1}{}{%
-        {{hash=657f840dc3818e7a56523e4e2d17a0ca}{%
+        {{un=0,uniquepart=base,hash=657f840dc3818e7a56523e4e2d17a0ca}{%
            family={Hegel},
            familyi={H\bibinitperiod},
            given={Georg\bibnamedelimb Wilhelm\bibnamedelima Friedrich},
-           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Hamburg}%
@@ -71,7 +72,6 @@
       \strng{authorbibnamehash}{657f840dc3818e7a56523e4e2d17a0ca}
       \strng{authornamehash}{657f840dc3818e7a56523e4e2d17a0ca}
       \strng{authorfullhash}{657f840dc3818e7a56523e4e2d17a0ca}
-      \field{labelalpha}{Heg17}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labelnamesource}{author}
@@ -88,11 +88,12 @@
     \endentry
     \entry{kant_kritik_2014}{book}{}
       \name{author}{1}{}{%
-        {{hash=e1e09a59acd7633f469747be85d5edc0}{%
+        {{un=0,uniquepart=base,hash=e1e09a59acd7633f469747be85d5edc0}{%
            family={Kant},
            familyi={K\bibinitperiod},
            given={Immanuel},
-           giveni={I\bibinitperiod}}}%
+           giveni={I\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Frankfurt am Main}%
@@ -106,7 +107,6 @@
       \strng{authorbibnamehash}{e1e09a59acd7633f469747be85d5edc0}
       \strng{authornamehash}{e1e09a59acd7633f469747be85d5edc0}
       \strng{authorfullhash}{e1e09a59acd7633f469747be85d5edc0}
-      \field{labelalpha}{Kan14}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
@@ -124,11 +124,12 @@
     \endentry
     \entry{khurana_freiheit_2017}{book}{}
       \name{author}{1}{}{%
-        {{hash=e349d8796f66a379cee49585bc0b9938}{%
+        {{un=0,uniquepart=base,hash=e349d8796f66a379cee49585bc0b9938}{%
            family={Khurana},
            familyi={K\bibinitperiod},
            given={Thomas},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -139,7 +140,6 @@
       \strng{authorbibnamehash}{e349d8796f66a379cee49585bc0b9938}
       \strng{authornamehash}{e349d8796f66a379cee49585bc0b9938}
       \strng{authorfullhash}{e349d8796f66a379cee49585bc0b9938}
-      \field{labelalpha}{Khu17}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
@@ -153,11 +153,12 @@
     \endentry
     \entry{menke_autonomie_2018}{book}{}
       \name{author}{1}{}{%
-        {{hash=c0d5f872390d50fb53b8f85e889b4650}{%
+        {{un=0,uniquepart=base,hash=c0d5f872390d50fb53b8f85e889b4650}{%
            family={Menke},
            familyi={M\bibinitperiod},
            given={Christoph},
-           giveni={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -171,7 +172,6 @@
       \strng{authorbibnamehash}{c0d5f872390d50fb53b8f85e889b4650}
       \strng{authornamehash}{c0d5f872390d50fb53b8f85e889b4650}
       \strng{authorfullhash}{c0d5f872390d50fb53b8f85e889b4650}
-      \field{labelalpha}{Men18}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
@@ -189,11 +189,12 @@
     \endentry
     \entry{nietzsche_jenseits_2014}{book}{}
       \name{author}{1}{}{%
-        {{hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+        {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
            family={Nietzsche},
            familyi={N\bibinitperiod},
            given={Friedrich},
-           giveni={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {München}%
@@ -208,7 +209,6 @@
       \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
       \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
       \field{extraname}{1}
-      \field{labelalpha}{Nie14}
       \field{sortinit}{N}
       \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
@@ -223,11 +223,12 @@
     \endentry
     \entry{nietzsche_morgenrote_1999}{book}{}
       \name{author}{1}{}{%
-        {{hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+        {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
            family={Nietzsche},
            familyi={N\bibinitperiod},
            given={Friedrich},
-           giveni={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {München}%
@@ -242,7 +243,6 @@
       \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
       \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
       \field{extraname}{2}
-      \field{labelalpha}{Nie99}
       \field{sortinit}{N}
       \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
