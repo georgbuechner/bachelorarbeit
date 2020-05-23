@@ -1,17 +1,19 @@
 [1] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [1] Config.pm:307> INFO - Logfile is 'arbeit.blg'
-[102] biber:322> INFO - === Fr Mai 22, 2020, 18:05:02
-[118] Biber.pm:415> INFO - Reading 'arbeit.bcf'
-[213] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
-[233] Biber.pm:4256> INFO - Processing section 0
-[233] Utils.pm:75> INFO - Globbing data source 'literatur.bib'
-[233] Utils.pm:91> INFO - Globbed data source 'literatur.bib' to literatur.bib
-[245] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[246] bibtex.pm:1653> INFO - LaTeX decoding ...
-[269] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur.bib'
-[341] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[341] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[341] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
-[341] Biber.pm:4090> INFO - No sort tailoring available for locale 'de_DE'
-[350] bbl.pm:652> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
-[353] bbl.pm:755> INFO - Output to arbeit.bbl
+[98] biber:322> INFO - === Sa Mai 23, 2020, 20:23:26
+[114] Biber.pm:415> INFO - Reading 'arbeit.bcf'
+[207] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[228] Biber.pm:4256> INFO - Processing section 0
+[228] Utils.pm:75> INFO - Globbing data source 'literatur.bib'
+[228] Utils.pm:91> INFO - Globbed data source 'literatur.bib' to literatur.bib
+[240] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[241] bibtex.pm:1653> INFO - LaTeX decoding ...
+[266] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur.bib'
+[320] Utils.pm:293> WARN - Entry 'hegel_enzyklopädie_1969' (literatur.bib): Invalid format '1969-70' of date field 'date' - ignoring
+[343] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[343] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[343] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
+[343] Biber.pm:4090> INFO - No sort tailoring available for locale 'de_DE'
+[354] bbl.pm:652> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
+[358] bbl.pm:755> INFO - Output to arbeit.bbl
+[358] Biber.pm:128> INFO - WARNINGS: 1

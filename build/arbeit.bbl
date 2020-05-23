@@ -51,6 +51,37 @@
       \field{year}{2003}
       \field{dateera}{ce}
     \endentry
+    \entry{hegel_enzyklopädie_1969}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=657f840dc3818e7a56523e4e2d17a0ca}{%
+           family={Hegel},
+           familyi={H\bibinitperiod},
+           given={Georg\bibnamedelimb Wilhelm\bibnamedelima Friedrich},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main}%
+      }
+      \list{publisher}{1}{%
+        {Suhrkamp}%
+      }
+      \strng{namehash}{657f840dc3818e7a56523e4e2d17a0ca}
+      \strng{fullhash}{657f840dc3818e7a56523e4e2d17a0ca}
+      \strng{bibnamehash}{657f840dc3818e7a56523e4e2d17a0ca}
+      \strng{authorbibnamehash}{657f840dc3818e7a56523e4e2d17a0ca}
+      \strng{authornamehash}{657f840dc3818e7a56523e4e2d17a0ca}
+      \strng{authorfullhash}{657f840dc3818e7a56523e4e2d17a0ca}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Bde. 8-10}
+      \field{series}{Theorie-Werkausgabe}
+      \field{title}{Enzyklopädie der philosophischen Wissenschaften}
+      \warn{\item Entry 'hegel_enzyklopädie_1969' (literatur.bib): Invalid format '1969-70' of date field 'date' - ignoring}
+    \endentry
     \entry{hegel_grundlinien_2017}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=657f840dc3818e7a56523e4e2d17a0ca}{%
@@ -72,6 +103,7 @@
       \strng{authorbibnamehash}{657f840dc3818e7a56523e4e2d17a0ca}
       \strng{authornamehash}{657f840dc3818e7a56523e4e2d17a0ca}
       \strng{authorfullhash}{657f840dc3818e7a56523e4e2d17a0ca}
+      \field{extraname}{2}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labelnamesource}{author}
