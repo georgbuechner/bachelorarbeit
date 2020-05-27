@@ -2238,14 +2238,18 @@
     <bcf:citekey order="55">hegel_grundlinien_2017</bcf:citekey>
     <bcf:citekey order="56">hegel_enzyklopädie_1969</bcf:citekey>
     <bcf:citekey order="57">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="58">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="59">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="60">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="61">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="62">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="58">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="59">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="60">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="61">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="62">khurana_freiheit_2017</bcf:citekey>
     <bcf:citekey order="63">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="64">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="65">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="64">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="65">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="66">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="67">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="68">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="69">khurana_freiheit_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
