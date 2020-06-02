@@ -1,19 +1,19 @@
-[1] Config.pm:304> INFO - This is Biber 2.14 (beta)
-[1] Config.pm:307> INFO - Logfile is 'arbeit.blg'
-[103] biber:322> INFO - === Di Mai 26, 2020, 17:05:24
-[119] Biber.pm:415> INFO - Reading 'arbeit.bcf'
-[213] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
-[233] Biber.pm:4256> INFO - Processing section 0
-[234] Utils.pm:75> INFO - Globbing data source 'literatur.bib'
-[234] Utils.pm:91> INFO - Globbed data source 'literatur.bib' to literatur.bib
-[246] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[247] bibtex.pm:1653> INFO - LaTeX decoding ...
-[272] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur.bib'
-[327] Utils.pm:293> WARN - Entry 'hegel_enzyklopädie_1969' (literatur.bib): Invalid format '1969-70' of date field 'date' - ignoring
-[350] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[350] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[350] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
-[350] Biber.pm:4090> INFO - No sort tailoring available for locale 'de_DE'
-[362] bbl.pm:652> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
-[366] bbl.pm:755> INFO - Output to arbeit.bbl
-[366] Biber.pm:128> INFO - WARNINGS: 1
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'arbeit.blg'
+[66] biber:322> INFO - === Di Jun  2, 2020, 17:32:59
+[77] Biber.pm:415> INFO - Reading 'arbeit.bcf'
+[133] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[143] Biber.pm:4256> INFO - Processing section 0
+[143] Utils.pm:75> INFO - Globbing data source 'literatur.bib'
+[143] Utils.pm:91> INFO - Globbed data source 'literatur.bib' to literatur.bib
+[151] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[151] bibtex.pm:1653> INFO - LaTeX decoding ...
+[168] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur.bib'
+[205] Utils.pm:293> WARN - Entry 'hegel_enzyklopädie_1969' (literatur.bib): Invalid format '1969-70' of date field 'date' - ignoring
+[218] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[218] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[218] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
+[218] Biber.pm:4090> INFO - No sort tailoring available for locale 'de_DE'
+[224] bbl.pm:652> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
+[227] bbl.pm:755> INFO - Output to arbeit.bbl
+[227] Biber.pm:128> INFO - WARNINGS: 1
