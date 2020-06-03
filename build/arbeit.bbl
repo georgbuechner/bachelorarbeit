@@ -183,6 +183,44 @@
       \field{year}{2017}
       \field{dateera}{ce}
     \endentry
+    \entry{marx_kritik_1977}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fce08a4b30fb50f3020b2fdfeb8aa2e6}{%
+           family={Engels},
+           familyi={E\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Dietz}%
+      }
+      \strng{namehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{fullhash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{bibnamehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{authorbibnamehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{authornamehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{authorfullhash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{number}{Bd. 1}
+      \field{series}{Werke}
+      \field{shorttitle}{Zur Kritik der Hegelschen Rechtsphilosophie}
+      \field{title}{Zur Kritik der Hegelschen Rechtsphilosophie. Kritik des Hegelschen Staatsrechts}
+      \field{year}{1977}
+      \field{dateera}{ce}
+    \endentry
     \entry{menke_autonomie_2018}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c0d5f872390d50fb53b8f85e889b4650}{%
