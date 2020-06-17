@@ -257,7 +257,7 @@
       \endverb
       \keyw{Freiheit und Gesellschaft}
     \endentry
-    \entry{nietzsche_jenseits_2014}{book}{}
+    \entry{nietzsche_geburt_1999}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
            family={Nietzsche},
@@ -283,15 +283,14 @@
       \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{edition}{Neuausgabe 1999, 13. Auflage 2014}
-      \field{number}{Band 5}
-      \field{series}{kritische Studienausgabe in 15 Bänden; KSA}
-      \field{shorttitle}{Jenseits}
-      \field{title}{Jenseits von Gut und Böse. Zur Genealogie der Moral}
-      \field{year}{2014}
+      \field{number}{Band 1}
+      \field{series}{kritische Studienausgabe in 15 Bänden, KSA}
+      \field{shorttitle}{KSA 1}
+      \field{title}{Die Geburt der Tragödie}
+      \field{year}{1999}
       \field{dateera}{ce}
     \endentry
-    \entry{nietzsche_morgenrote_1999}{book}{}
+    \entry{nietzsche_jenseits_2014}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
            family={Nietzsche},
@@ -317,9 +316,43 @@
       \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
+      \field{edition}{Neuausgabe 1999, 13. Auflage 2014}
+      \field{number}{Band 5}
+      \field{series}{kritische Studienausgabe in 15 Bänden; KSA}
+      \field{shorttitle}{KSA 5}
+      \field{title}{Jenseits von Gut und Böse. Zur Genealogie der Moral}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{nietzsche_morgenrote_1999}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Deutscher Taschenbuch Verlag}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \field{extraname}{3}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
       \field{number}{Band 3}
       \field{series}{kritische Studienausgabe in 15 Bänden, KSA}
-      \field{shorttitle}{Fröhliche Wissenschaft}
+      \field{shorttitle}{KSA 3}
       \field{title}{Morgenröte. Idyllen aus Messina. Die fröhliche Wissenschaft}
       \field{year}{1999}
       \field{dateera}{ce}
