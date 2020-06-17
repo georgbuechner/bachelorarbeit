@@ -2301,15 +2301,19 @@
     <bcf:citekey order="118">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="119">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="120">menke_autonomie_2018</bcf:citekey>
-    <bcf:citekey order="121">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="121">nietzsche_jenseits_2014</bcf:citekey>
     <bcf:citekey order="122">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="123">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="124">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="125">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="125">khurana_freiheit_2017</bcf:citekey>
     <bcf:citekey order="126">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="127">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="128">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="129">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="127">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="128">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="129">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="130">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="131">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="132">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="133">menke_autonomie_2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
