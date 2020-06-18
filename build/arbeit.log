@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  18 JUN 2020 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  18 JUN 2020 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,7 +1021,7 @@ valid format '1969-70' of date field 'date' - ignoring.
 )
 Package biblatex Info: Reference section=0 on input line 34.
 Package biblatex Info: Reference segment=0 on input line 34.
-<images/logo.png, id=91, 237.88875pt x 213.79875pt>
+<images/logo.png, id=87, 237.88875pt x 213.79875pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 37.
@@ -1339,86 +1339,84 @@ Overfull \hbox (54.5pt too wide) in paragraph at lines 620--620
  []
 
 [28] [29]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 649--649
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 640--651
+
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 649--649
-[][] 
+Package biblatex Warning: Nested notes on input line 658.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--663
+
  []
 
-
-Overfull \hbox (54.5pt too wide) in paragraph at lines 657--657
-[][] 
- []
-
-
-Overfull \hbox (54.5pt too wide) in paragraph at lines 657--657
-[][] 
- []
-
-
-Overfull \hbox (54.5pt too wide) in paragraph at lines 672--672
-[][] 
- []
-
-
-Overfull \hbox (54.5pt too wide) in paragraph at lines 672--672
-[][] 
- []
-
-[30] [31]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 682--682
+[30] Excluding 'comment' comment.
+Overfull \hbox (54.5pt too wide) in paragraph at lines 712--712
 [][][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 682--682
+Overfull \hbox (54.5pt too wide) in paragraph at lines 712--712
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--688
+Underfull \hbox (badness 10000) in paragraph at lines 708--718
 
  []
 
-[32] [33] [34]
+[31] [32] [33]
 Kapitel 3.
-[35
+[34
 
-] [36
+] [35
 
 
 ] (./arbeit.tdo)
 \tf@tdo=\write8
 \openout8 = `arbeit.tdo'.
 
- [37
+ [36
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 721.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 721.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
  (./arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 721.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 721.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 9CDEE4283E96EED765FC8BDC00D97C59;1139.
+(rerunfilecheck)             Checksum: 260DCF2FA4DE655685B3C6C930B88B62;1041.
 Package logreq Info: Writing requests to 'arbeit.run.xml'.
 \openout1 = `arbeit.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 721.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 751.
  ) 
 Here is how much of TeX's memory you used:
- 26652 strings out of 481239
- 505924 string characters out of 5920378
- 1199217 words of memory out of 5000000
- 41217 multiletter control sequences out of 15000+600000
+ 26644 strings out of 481239
+ 505727 string characters out of 5920378
+ 1196950 words of memory out of 5000000
+ 41209 multiletter control sequences out of 15000+600000
  546911 words of font info for 51 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  76i,12n,87p,948b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.135} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.140} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.139} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.138} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.137} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.136} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.135} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.134} has been referenced but does not exi
 st, replaced by a fixed one
@@ -1832,10 +1830,10 @@ usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on arbeit.pdf (41 pages, 390905 bytes).
+Output written on arbeit.pdf (40 pages, 388784 bytes).
 PDF statistics:
- 852 PDF objects out of 1000 (max. 8388607)
- 771 compressed objects within 8 object streams
+ 850 PDF objects out of 1000 (max. 8388607)
+ 770 compressed objects within 8 object streams
  224 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
