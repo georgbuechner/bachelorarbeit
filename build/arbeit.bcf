@@ -2299,17 +2299,18 @@
     <bcf:citekey order="116">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="117">nietzsche_geburt_1999</bcf:citekey>
     <bcf:citekey order="118">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="119">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="120">nietzsche_geburt_1999</bcf:citekey>
-    <bcf:citekey order="121">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="122">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="123">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="119">nietzsche_geburt_1999</bcf:citekey>
+    <bcf:citekey order="120">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="121">nietzsche_geburt_1999</bcf:citekey>
+    <bcf:citekey order="122">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="123">khurana_freiheit_2017</bcf:citekey>
     <bcf:citekey order="124">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="125">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="126">nietzsche_jenseits_2014</bcf:citekey>
-    <bcf:citekey order="127">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="128">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="126">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="127">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="128">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="129">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="130">khurana_freiheit_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
