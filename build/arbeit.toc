@@ -21,16 +21,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.4}Zwischenfazit und Problembestimmung}{22}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Zweite Natur bei Nietzsche}{26}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Zweite Natur bei Nietzsche}{25}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}(a) Was bedeutet Schein?}{27}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}(a) Was bedeutet Schein?}{26}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}(b) Der Schauspieler und die Rolle}{30}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}(b) Der Schauspieler und die Rolle}{29}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}(c) Gott ist tot!}{31}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Was heißt Befreiung aus der zweiten Natur}{32}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Was heißt Befreiung aus der zweiten Natur}{31}{section.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Das offene Meer?}{32}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Fazit}{34}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Fazit}{36}{chapter.3}%

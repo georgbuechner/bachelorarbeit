@@ -2311,11 +2311,14 @@
     <bcf:citekey order="128">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="129">nietzsche_morgenrote_1999</bcf:citekey>
     <bcf:citekey order="130">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="131">nietzsche_morgenrote_1999</bcf:citekey>
+    <bcf:citekey order="131">stephan_nietzscheanismus_2019</bcf:citekey>
     <bcf:citekey order="132">nietzsche_morgenrote_1999</bcf:citekey>
-    <bcf:citekey order="133">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="133">menke_autonomie_2018</bcf:citekey>
     <bcf:citekey order="134">khurana_freiheit_2017</bcf:citekey>
-    <bcf:citekey order="135">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="135">menke_autonomie_2018</bcf:citekey>
+    <bcf:citekey order="136">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="137">khurana_freiheit_2017</bcf:citekey>
+    <bcf:citekey order="138">khurana_freiheit_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

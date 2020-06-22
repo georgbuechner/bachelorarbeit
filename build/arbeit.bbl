@@ -357,6 +357,37 @@
       \field{year}{1999}
       \field{dateera}{ce}
     \endentry
+    \entry{stephan_nietzscheanismus_2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b596eee44fa1772657c1c7ce1068784}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Stuttgart}%
+      }
+      \list{publisher}{1}{%
+        {Schmetterling-Verlag}%
+      }
+      \strng{namehash}{1b596eee44fa1772657c1c7ce1068784}
+      \strng{fullhash}{1b596eee44fa1772657c1c7ce1068784}
+      \strng{bibnamehash}{1b596eee44fa1772657c1c7ce1068784}
+      \strng{authorbibnamehash}{1b596eee44fa1772657c1c7ce1068784}
+      \strng{authornamehash}{1b596eee44fa1772657c1c7ce1068784}
+      \strng{authorfullhash}{1b596eee44fa1772657c1c7ce1068784}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-89657-089-5}
+      \field{shorttitle}{LN}
+      \field{title}{Links-{Nietzscheanismus} {Eine} {Einführung}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
