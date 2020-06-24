@@ -5,15 +5,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Hauptteil}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Zweite Natur bei Hegel}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Zweite Natur bei Hegel}{7}{section.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}(a) Autonomie und Sittlichkeit}{7}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Kant und das Paradox der Autonomie}{8}{subsection.2.1.1}%
+\contentsline {subsubsection}{Kant und das Paradox der Autonomie}{8}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hegels Auswegen in der Sittlichkeit}{9}{section*.8}%
+\contentsline {subsubsection}{Hegels Auswegen in der Sittlichkeit}{9}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Die Wiederholung des Paradox: Zweite Natur}{12}{section*.10}%
+\contentsline {subsubsection}{Die Wiederholung des Paradox: Zweite Natur}{12}{section*.12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}(b) Gewohnheit - Dialektik von Geist und Mechanismus}{13}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
@@ -21,13 +21,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.4}Zwischenfazit und Problembestimmung}{22}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Zweite Natur bei Nietzsche}{25}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Zweite Natur bei Nietzsche}{24}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}(a) Was bedeutet Schein?}{26}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}(a) Was bedeutet Schein?}{25}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}(b) Der Schauspieler und die Rolle}{29}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}(b) Der Schauspieler und die Rolle}{28}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}(c) Gott ist tot!}{31}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}(c) Gott ist tot!}{30}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Was heißt Befreiung aus der zweiten Natur}{31}{section.2.3}%
 \defcounter {refsection}{0}\relax 
