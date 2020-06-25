@@ -40,6 +40,7 @@
       \strng{authorbibnamehash}{e4e68aa80bd065ec444004f0b1b852a2}
       \strng{authornamehash}{e4e68aa80bd065ec444004f0b1b852a2}
       \strng{authorfullhash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
@@ -49,6 +50,38 @@
       \field{series}{Gesammelte Schriften}
       \field{title}{Negative Dialektik}
       \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{adorno_vorlesung_2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e4e68aa80bd065ec444004f0b1b852a2}{%
+           family={Adorno},
+           familyi={A\bibinitperiod},
+           given={Theodor\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main}%
+      }
+      \list{publisher}{1}{%
+        {Suhrkamp}%
+      }
+      \strng{namehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{fullhash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{bibnamehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{authorbibnamehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{authornamehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{authorfullhash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{series}{Suhrkamp-Taschenbuch Wissenschaft}
+      \field{shorttitle}{PdM}
+      \field{title}{Probleme der Moralphilosophie}
+      \field{year}{2010}
       \field{dateera}{ce}
     \endentry
     \entry{hegel_enzyklopädie_1969}{book}{}
