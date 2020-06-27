@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  26 JUN 2020 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  27 JUN 2020 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,67 +1424,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 671--694
 Package biblatex Warning: Nested notes on input line 736.
 
 [30]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 751--751
+Overfull \hbox (54.5pt too wide) in paragraph at lines 752--752
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 751--751
+Overfull \hbox (54.5pt too wide) in paragraph at lines 752--752
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 757--757
+Overfull \hbox (54.5pt too wide) in paragraph at lines 758--758
 [][][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 757--757
+Overfull \hbox (54.5pt too wide) in paragraph at lines 758--758
 [][][] 
  []
 
 [31]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 768--768
+Overfull \hbox (54.5pt too wide) in paragraph at lines 772--772
 [][][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 768--768
+Overfull \hbox (54.5pt too wide) in paragraph at lines 772--772
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 763--774
+Overfull \hbox (54.5pt too wide) in paragraph at lines 773--773
+[][][] 
+ []
 
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 773--773
+[][][] 
+ []
+
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 777--777
+[][][] 
+ []
+
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 777--777
+[][][] 
  []
 
 [32]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 786--786
-[][][] 
- []
 
+LaTeX Warning: Marginpar on page 33 moved.
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 786--786
-[][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 775--800
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 791--796
 
  []
 
-[33] [34] [35]
+[34] Excluding 'comment' comment. [35]
 Kapitel 3.
 [36
 
 ] [37]
-Overfull \hbox (10.68385pt too wide) in paragraph at lines 852--852
+Overfull \hbox (10.68385pt too wide) in paragraph at lines 891--891
 [][][]\T1/cmr/m/it/12 Probleme der Mo-ral-phi-lo-so-phie\T1/cmr/m/n/12 . Suhrka
 mp-Taschenbuch Wis-sen-schaft. Frank-
  []
 
 
-Overfull \hbox (20.54898pt too wide) in paragraph at lines 852--852
+Overfull \hbox (20.54898pt too wide) in paragraph at lines 891--891
 [][]\T1/cmr/m/n/12 Stephan, Paul. \T1/cmr/m/it/12 Links-Nietzscheanismus Ei-ne 
 Ein-füh-rung\T1/cmr/m/n/12 . Stutt-gart: Schmetterling-
  []
@@ -1499,28 +1508,49 @@ Ein-füh-rung\T1/cmr/m/n/12 . Stutt-gart: Schmetterling-
  [39
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 854.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 854.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 893.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 893.
  (./arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 854.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 854.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 893.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 893.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 260DCF2FA4DE655685B3C6C930B88B62;1041.
 Package logreq Info: Writing requests to 'arbeit.run.xml'.
 \openout1 = `arbeit.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 854.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 893.
  ) 
 Here is how much of TeX's memory you used:
- 26738 strings out of 481239
- 507403 string characters out of 5920378
- 1201957 words of memory out of 5000000
- 41271 multiletter control sequences out of 15000+600000
+ 26761 strings out of 481239
+ 507789 string characters out of 5920378
+ 1208186 words of memory out of 5000000
+ 41286 multiletter control sequences out of 15000+600000
  548364 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  76i,12n,87p,948b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.160} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.167} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.166} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.165} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.164} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.163} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.162} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.161} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.160} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.159} has been referenced but does not exi
 st, replaced by a fixed one
@@ -2011,10 +2041,10 @@ per/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfti1200.pfb>
-Output written on arbeit.pdf (42 pages, 423054 bytes).
+Output written on arbeit.pdf (42 pages, 423493 bytes).
 PDF statistics:
- 955 PDF objects out of 1000 (max. 8388607)
- 869 compressed objects within 9 object streams
- 254 named destinations out of 1000 (max. 500000)
+ 979 PDF objects out of 1000 (max. 8388607)
+ 893 compressed objects within 9 object streams
+ 262 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
