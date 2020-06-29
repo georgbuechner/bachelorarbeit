@@ -109,9 +109,10 @@
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{shorttitle}
       \field{number}{Bde. 8-10}
       \field{series}{Theorie-Werkausgabe}
+      \field{shorttitle}{Enz III}
       \field{title}{Enzyklopädie der philosophischen Wissenschaften}
       \warn{\item Entry 'hegel_enzyklopädie_1969' (literatur.bib): Invalid format '1969-70' of date field 'date' - ignoring}
     \endentry
@@ -211,7 +212,7 @@
       \field{labeltitlesource}{shorttitle}
       \field{edition}{Erste Auflage}
       \field{series}{suhrkamp taschenbuch wissenschaft}
-      \field{shorttitle}{Freiheit}
+      \field{shorttitle}{LdF}
       \field{title}{Das Leben der Freiheit}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -249,7 +250,7 @@
       \field{labeltitlesource}{shorttitle}
       \field{number}{Bd. 1}
       \field{series}{Werke}
-      \field{shorttitle}{Zur Kritik der Hegelschen Rechtsphilosophie}
+      \field{shorttitle}{Khr}
       \field{title}{Zur Kritik der Hegelschen Rechtsphilosophie. Kritik des Hegelschen Staatsrechts}
       \field{year}{1977}
       \field{dateera}{ce}
@@ -281,7 +282,7 @@
       \field{labeltitlesource}{shorttitle}
       \field{edition}{Erste Auflage}
       \field{series}{suhrkamp taschenbuch wissenschaft}
-      \field{shorttitle}{Autonomie}
+      \field{shorttitle}{AuB}
       \field{title}{Autonomie und Befreiung: Studien zu Hegel}
       \field{year}{2018}
       \field{dateera}{ce}
