@@ -416,10 +416,38 @@
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-3-89657-089-5}
       \field{shorttitle}{LN}
       \field{title}{Links-{Nietzscheanismus} {Eine} {Einführung}}
       \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{tucholsky_gesammel_1975}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6919565d07326515238b81f710a8eadb}{%
+           family={Tucholsky},
+           familyi={T\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Reinbek bei Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Rowohlt Verlag}%
+      }
+      \strng{namehash}{6919565d07326515238b81f710a8eadb}
+      \strng{fullhash}{6919565d07326515238b81f710a8eadb}
+      \strng{bibnamehash}{6919565d07326515238b81f710a8eadb}
+      \strng{authorbibnamehash}{6919565d07326515238b81f710a8eadb}
+      \strng{authornamehash}{6919565d07326515238b81f710a8eadb}
+      \strng{authorfullhash}{6919565d07326515238b81f710a8eadb}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gesammelte Werke in zehn Bänden}
+      \field{year}{1975}
       \field{dateera}{ce}
     \endentry
   \enddatalist
