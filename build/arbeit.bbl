@@ -78,7 +78,6 @@
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{series}{Suhrkamp-Taschenbuch Wissenschaft}
       \field{shorttitle}{PdM}
       \field{title}{Probleme der Moralphilosophie}
       \field{year}{2010}
@@ -111,7 +110,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{number}{Bde. 8-10}
-      \field{series}{Theorie-Werkausgabe}
       \field{shorttitle}{Enz III}
       \field{title}{Enzyklopädie der philosophischen Wissenschaften}
       \warn{\item Entry 'hegel_enzyklopädie_1969' (literatur.bib): Invalid format '1969-70' of date field 'date' - ignoring}
@@ -180,7 +178,7 @@
       \field{edition}{21. Aufl}
       \field{number}{in 12 Bänden / Immanuel Kant. Hrsg. von Wilhelm Weischedel ;[...]}
       \field{series}{Werkausgabe}
-      \field{shorttitle}{Grundlegungen}
+      \field{shorttitle}{Gms}
       \field{title}{Kritik der praktischen Vernunft. Grundlegung zur Metaphysik der Sitten}
       \field{year}{2014}
       \field{dateera}{ce}
@@ -389,6 +387,37 @@
       \field{shorttitle}{KSA 3}
       \field{title}{Morgenröte. Idyllen aus Messina. Die fröhliche Wissenschaft}
       \field{year}{1999}
+      \field{dateera}{ce}
+    \endentry
+    \entry{pinkard_paradox_2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=640ec0973dfed98f07cf0440ca892535}{%
+           family={Pinkard},
+           familyi={P\bibinitperiod},
+           given={Terry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {August Verlag}%
+      }
+      \strng{namehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{fullhash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{bibnamehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{authorbibnamehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{authornamehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{authorfullhash}{640ec0973dfed98f07cf0440ca892535}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{series}{Paradoxien der Autonomie. Freiheit und Gesetz 1}
+      \field{shorttitle}{PdA}
+      \field{title}{Das Paradox der Autonomie. Kants Problem und Hegels Lösung}
+      \field{year}{2019}
       \field{dateera}{ce}
     \endentry
     \entry{stephan_nietzscheanismus_2019}{book}{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  30 JUN 2020 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  2 JUL 2020 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,22 +885,22 @@ Package csquotes Info: ... found 'babel' package.
  (./arbeit.aux)
 \openout1 = `arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -963,10 +963,10 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 42.
+loading the todonotes package. on input line 41.
 
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 41.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -978,9 +978,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count426
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./arbeit.out) (./arbeit.out)
 \@outlinefile=\write6
@@ -1019,17 +1019,17 @@ Package biblatex Warning: Biber reported the following issues
 valid format '1969-70' of date field 'date' - ignoring.
 
 )
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: Reference section=0 on input line 41.
+Package biblatex Info: Reference segment=0 on input line 41.
 <images/logo.png, id=87, 237.88875pt x 213.79875pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 45.
+Package pdftex.def Info: images/logo.png  used on input line 44.
 (pdftex.def)             Requested size: 237.88815pt x 213.79822pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 45.
+(Font)              <14.4> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 45.
+(Font)              <7> on input line 44.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>]
@@ -1050,17 +1050,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Kapitel 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
+(Font)              <5> on input line 54.
+
+Package biblatex Warning: Nested notes on input line 61.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 
+l.73 
       [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 71--76
+Underfull \hbox (badness 10000) in paragraph at lines 74--79
 
  []
 
@@ -1073,159 +1076,159 @@ This may cause the page layout to be inconsistent, however.
 [2] [3]
 Kapitel 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--126
+Underfull \hbox (badness 10000) in paragraph at lines 112--128
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 127--141
+Underfull \hbox (badness 10000) in paragraph at lines 129--145
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 142--148
+Underfull \hbox (badness 10000) in paragraph at lines 146--152
 
  []
 
 [6] [7]
 
-Package biblatex Warning: Nested notes on input line 193.
+Package biblatex Warning: Nested notes on input line 199.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--200
+Underfull \hbox (badness 10000) in paragraph at lines 192--206
 
  []
 
 [8] [9]
 
-Package biblatex Warning: Nested notes on input line 247.
+Package biblatex Warning: Nested notes on input line 253.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--254
 
  []
 
 [10]
 
-Package biblatex Warning: Nested notes on input line 258.
+Package biblatex Warning: Nested notes on input line 264.
 
 
-Package biblatex Warning: Nested notes on input line 258.
+Package biblatex Warning: Nested notes on input line 264.
 
 
-Package biblatex Warning: Nested notes on input line 273.
+Package biblatex Warning: Nested notes on input line 279.
 
 [11]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 296.
+ine 302.
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 296--296
+Overfull \hbox (54.5pt too wide) in paragraph at lines 302--302
 [][][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 296--296
+Overfull \hbox (54.5pt too wide) in paragraph at lines 302--302
 [][][] 
  []
 
 [12] Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 298--309
+Underfull \hbox (badness 10000) in paragraph at lines 304--315
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 328--334
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
 
 [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 361--376
+Underfull \hbox (badness 10000) in paragraph at lines 367--382
 
  []
 
 [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 403--421
+Underfull \hbox (badness 10000) in paragraph at lines 409--427
 
  []
 
 [18]
 
-Package biblatex Warning: Nested notes on input line 435.
+Package biblatex Warning: Nested notes on input line 441.
 
 [19]
 
-Package biblatex Warning: Nested notes on input line 462.
+Package biblatex Warning: Nested notes on input line 468.
 
 
-Package biblatex Warning: Nested notes on input line 474.
+Package biblatex Warning: Nested notes on input line 480.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--480
+Underfull \hbox (badness 10000) in paragraph at lines 456--486
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 492--504
+Underfull \hbox (badness 10000) in paragraph at lines 498--510
 
  []
 
 [21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 516--520
+Underfull \hbox (badness 10000) in paragraph at lines 522--526
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--527
+Underfull \hbox (badness 10000) in paragraph at lines 527--533
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 538--550
+Underfull \hbox (badness 10000) in paragraph at lines 544--556
 
  []
 
 [24]
 
-Package biblatex Warning: Nested notes on input line 565.
+Package biblatex Warning: Nested notes on input line 571.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--566
+Underfull \hbox (badness 10000) in paragraph at lines 557--572
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--582
+Underfull \hbox (badness 10000) in paragraph at lines 576--588
 
  []
 
 [25]
 
-Package biblatex Warning: Nested notes on input line 594.
+Package biblatex Warning: Nested notes on input line 600.
 
 
-Package biblatex Warning: Nested notes on input line 594.
+Package biblatex Warning: Nested notes on input line 600.
 
 
-Package biblatex Warning: Nested notes on input line 594.
+Package biblatex Warning: Nested notes on input line 600.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--605
+Underfull \hbox (badness 10000) in paragraph at lines 589--611
 
  []
 
 [26]
 
-Package biblatex Warning: Nested notes on input line 645.
+Package biblatex Warning: Nested notes on input line 651.
 
 [27] [28] [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 692--697
+Underfull \hbox (badness 10000) in paragraph at lines 698--703
 
  []
 
@@ -1234,13 +1237,7 @@ Kapitel 3.
 [33
 
 ]
-Overfull \hbox (10.68385pt too wide) in paragraph at lines 734--734
-[][][]\T1/cmr/m/it/12 Probleme der Mo-ral-phi-lo-so-phie\T1/cmr/m/n/12 . Suhrka
-mp-Taschenbuch Wis-sen-schaft. Frank-
- []
-
-
-Overfull \hbox (20.54898pt too wide) in paragraph at lines 734--734
+Overfull \hbox (20.54898pt too wide) in paragraph at lines 740--740
 [][]\T1/cmr/m/n/12 Stephan, Paul. \T1/cmr/m/it/12 Links-Nietzscheanismus Ei-ne 
 Ein-füh-rung\T1/cmr/m/n/12 . Stutt-gart: Schmetterling-
  []
@@ -1249,28 +1246,49 @@ Ein-füh-rung\T1/cmr/m/n/12 . Stutt-gart: Schmetterling-
 
 
 ] [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 735.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 735.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 741.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 741.
  (./arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 735.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 735.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 741.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 741.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 260DCF2FA4DE655685B3C6C930B88B62;1041.
 Package logreq Info: Writing requests to 'arbeit.run.xml'.
 \openout1 = `arbeit.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 735.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 741.
  ) 
 Here is how much of TeX's memory you used:
- 26598 strings out of 481239
- 504860 string characters out of 5920378
- 1182830 words of memory out of 5000000
- 41166 multiletter control sequences out of 15000+600000
+ 26614 strings out of 481239
+ 505165 string characters out of 5920378
+ 1183922 words of memory out of 5000000
+ 41174 multiletter control sequences out of 15000+600000
  547689 words of font info for 52 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  76i,12n,87p,948b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.155} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.162} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.161} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.160} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.159} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.158} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.157} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.156} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.155} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.154} has been referenced but does not exi
 st, replaced by a fixed one
@@ -1745,10 +1763,10 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb>
-Output written on arbeit.pdf (37 pages, 388710 bytes).
+Output written on arbeit.pdf (37 pages, 392563 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
- 777 compressed objects within 8 object streams
- 222 named destinations out of 1000 (max. 500000)
+ 873 PDF objects out of 1000 (max. 8388607)
+ 795 compressed objects within 8 object streams
+ 230 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
