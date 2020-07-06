@@ -19,6 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{adorno_dialektik_der_aufklärung_1981}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e4e68aa80bd065ec444004f0b1b852a2}{%
+           family={Adorno},
+           familyi={A\bibinitperiod},
+           given={Theodor\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main}%
+      }
+      \list{publisher}{1}{%
+        {Suhrkamp}%
+      }
+      \strng{namehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{fullhash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{bibnamehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{authorbibnamehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{authornamehash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \strng{authorfullhash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{DdA}
+      \field{title}{Dialektik der Aufklärung}
+      \field{year}{1981}
+      \field{dateera}{ce}
+    \endentry
     \entry{adorno_negative_dialektik_2003}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e4e68aa80bd065ec444004f0b1b852a2}{%
@@ -40,6 +71,7 @@
       \strng{authorbibnamehash}{e4e68aa80bd065ec444004f0b1b852a2}
       \strng{authornamehash}{e4e68aa80bd065ec444004f0b1b852a2}
       \strng{authorfullhash}{e4e68aa80bd065ec444004f0b1b852a2}
+      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
@@ -215,6 +247,43 @@
       \field{year}{2017}
       \field{dateera}{ce}
     \endentry
+    \entry{khurana_paradox_2019}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e349d8796f66a379cee49585bc0b9938}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0d5f872390d50fb53b8f85e889b4650}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {August Verlag}%
+      }
+      \strng{namehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{fullhash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{bibnamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{authorbibnamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{authornamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{authorfullhash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{series}{Paradoxien der Autonomie. Freiheit und Gesetz 1}
+      \field{shorttitle}{PdA}
+      \field{title}{Das Paradox der Autonomie. Kants Problem und Hegels Lösung}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
     \entry{marx_kritik_1977}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
@@ -387,37 +456,6 @@
       \field{shorttitle}{KSA 3}
       \field{title}{Morgenröte. Idyllen aus Messina. Die fröhliche Wissenschaft}
       \field{year}{1999}
-      \field{dateera}{ce}
-    \endentry
-    \entry{pinkard_paradox_2019}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=640ec0973dfed98f07cf0440ca892535}{%
-           family={Pinkard},
-           familyi={P\bibinitperiod},
-           given={Terry},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {August Verlag}%
-      }
-      \strng{namehash}{640ec0973dfed98f07cf0440ca892535}
-      \strng{fullhash}{640ec0973dfed98f07cf0440ca892535}
-      \strng{bibnamehash}{640ec0973dfed98f07cf0440ca892535}
-      \strng{authorbibnamehash}{640ec0973dfed98f07cf0440ca892535}
-      \strng{authornamehash}{640ec0973dfed98f07cf0440ca892535}
-      \strng{authorfullhash}{640ec0973dfed98f07cf0440ca892535}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{series}{Paradoxien der Autonomie. Freiheit und Gesetz 1}
-      \field{shorttitle}{PdA}
-      \field{title}{Das Paradox der Autonomie. Kants Problem und Hegels Lösung}
-      \field{year}{2019}
       \field{dateera}{ce}
     \endentry
     \entry{stephan_nietzscheanismus_2019}{book}{}

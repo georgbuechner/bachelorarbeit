@@ -5,7 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Hauptteil}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Zweite Natur bei Hegel}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Zweite Natur bei Hegel}{6}{section.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}(a) Autonomie und Sittlichkeit}{7}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
@@ -15,7 +15,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.4}Zwischenfazit und Problembestimmung}{20}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Zweite Natur bei Nietzsche}{22}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Zweite Natur bei Nietzsche}{21}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}(a) Was bedeutet Schein?}{22}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
