@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  6 JUL 2020 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  7 JUL 2020 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1118,168 +1118,202 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--195
 
  []
 
-[7] [8] [9]
+[7] [8]
 
-Package biblatex Warning: Nested notes on input line 244.
+Package biblatex Warning: Nested notes on input line 207.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--245
+Overfull \hbox (54.5pt too wide) in paragraph at lines 220--220
+[][] 
+ []
+
+
+Overfull \hbox (54.5pt too wide) in paragraph at lines 220--220
+[][] 
+ []
+
+
+Package biblatex Warning: Nested notes on input line 227.
+
+
+Package biblatex Warning: Nested notes on input line 227.
+
+[9] [10]
+
+Package biblatex Warning: Nested notes on input line 262.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--263
 
  []
 
 
-Package biblatex Warning: Nested notes on input line 256.
+Package biblatex Warning: Nested notes on input line 274.
 
 
-Package biblatex Warning: Nested notes on input line 256.
+Package biblatex Warning: Nested notes on input line 274.
 
-[10]
 
-Package biblatex Warning: Nested notes on input line 271.
+Package biblatex Warning: Nested notes on input line 289.
 
-[11]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 294--294
+[11] [12]
+Overfull \hbox (54.5pt too wide) in paragraph at lines 312--312
 [][][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 294--294
+Overfull \hbox (54.5pt too wide) in paragraph at lines 312--312
 [][][] 
  []
 
-[12] Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 296--307
+[13] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 314--325
 
  []
 
 
-Package biblatex Warning: Nested notes on input line 315.
+Package biblatex Warning: Nested notes on input line 333.
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 326--332
-
- []
-
-[14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 359--374
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 344--350
 
  []
 
-[16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 401--419
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 377--392
 
  []
 
-[18]
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 419--437
 
-Package biblatex Warning: Nested notes on input line 433.
+ []
+
+
+Package biblatex Warning: Nested notes on input line 451.
 
 [19]
 
-Package biblatex Warning: Nested notes on input line 466.
+Package biblatex Warning: Nested notes on input line 484.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--472
-
- []
-
-[20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 506--510
+Underfull \hbox (badness 10000) in paragraph at lines 463--490
 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 511--517
+[20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--535
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 527--538
-
- []
-
-
-Package biblatex Warning: Nested notes on input line 553.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--554
+Underfull \hbox (badness 10000) in paragraph at lines 545--556
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 558--570
+
+Package biblatex Warning: Nested notes on input line 571.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--572
 
  []
 
 [25]
-
-Package biblatex Warning: Nested notes on input line 582.
-
-
-Package biblatex Warning: Nested notes on input line 582.
-
-
-Package biblatex Warning: Nested notes on input line 582.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 571--593
+Underfull \hbox (badness 10000) in paragraph at lines 576--588
 
  []
 
 [26]
 
-Package biblatex Warning: Nested notes on input line 633.
+Package biblatex Warning: Nested notes on input line 600.
 
-[27] [28]
-Overfull \hbox (1.61064pt too wide) in paragraph at lines 636--654
+
+Package biblatex Warning: Nested notes on input line 600.
+
+
+Package biblatex Warning: Nested notes on input line 600.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--611
+
+ []
+
+[27]
+
+Package biblatex Warning: Nested notes on input line 651.
+
+[28]
+Overfull \hbox (1.61064pt too wide) in paragraph at lines 654--672
 \T1/cmr/m/n/12 Befreiung be-deu-tet >>Durch-sto-ÿen des Scheins der Not-wen-dig
 -keit<<[][][]. Bei Nietz-
  []
 
-[29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 680--686
+[29] [30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 698--704
 
  []
 
-[31] [32]
+[32] [33]
 Kapitel 3.
 
-Package biblatex Warning: Nested notes on input line 721.
+Package biblatex Warning: Nested notes on input line 739.
 
-[33
+[34
 
-] [34
+] [35
 
 
 ]
-Overfull \hbox (20.54898pt too wide) in paragraph at lines 726--726
+Overfull \hbox (20.54898pt too wide) in paragraph at lines 744--744
 [][]\T1/cmr/m/n/12 Stephan, Paul. \T1/cmr/m/it/12 Links-Nietzscheanismus Ei-ne 
 Ein-füh-rung\T1/cmr/m/n/12 . Stutt-gart: Schmetterling-
  []
 
-[35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 727.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 727.
+[36]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 745.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 745.
  (./arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 727.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 727.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 745.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 745.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 260DCF2FA4DE655685B3C6C930B88B62;1041.
 Package logreq Info: Writing requests to 'arbeit.run.xml'.
 \openout1 = `arbeit.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 727.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 745.
  ) 
 Here is how much of TeX's memory you used:
- 26647 strings out of 481239
- 505920 string characters out of 5920378
- 1184353 words of memory out of 5000000
- 41202 multiletter control sequences out of 15000+600000
+ 26665 strings out of 481239
+ 506186 string characters out of 5920378
+ 1186486 words of memory out of 5000000
+ 41213 multiletter control sequences out of 15000+600000
  547689 words of font info for 52 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 76i,11n,87p,948b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.164} has been referenced but does not e
+ 76i,12n,87p,948b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.169} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.168} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.167} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.166} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.165} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.164} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.163} has been referenced but does not exi
 st, replaced by a fixed one
@@ -1781,10 +1815,10 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb>
-Output written on arbeit.pdf (37 pages, 394769 bytes).
+Output written on arbeit.pdf (38 pages, 398129 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
- 805 compressed objects within 9 object streams
- 235 named destinations out of 1000 (max. 500000)
+ 907 PDF objects out of 1000 (max. 8388607)
+ 827 compressed objects within 9 object streams
+ 242 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
