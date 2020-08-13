@@ -83,6 +83,52 @@
       \field{year}{2003}
       \field{dateera}{ce}
     \endentry
+    \entry{brandom_paradox_2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9da8c4765f65ce4f538161c8e53e5957}{%
+           family={Brandom},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e349d8796f66a379cee49585bc0b9938}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c0d5f872390d50fb53b8f85e889b4650}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {August Verlag}%
+      }
+      \strng{namehash}{9da8c4765f65ce4f538161c8e53e5957}
+      \strng{fullhash}{9da8c4765f65ce4f538161c8e53e5957}
+      \strng{bibnamehash}{9da8c4765f65ce4f538161c8e53e5957}
+      \strng{authorbibnamehash}{9da8c4765f65ce4f538161c8e53e5957}
+      \strng{authornamehash}{9da8c4765f65ce4f538161c8e53e5957}
+      \strng{authorfullhash}{9da8c4765f65ce4f538161c8e53e5957}
+      \strng{editorbibnamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{editornamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{editorfullhash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{series}{Paradoxien der Autonomie. Freiheit und Gesetz 1}
+      \field{shorttitle}{PdA}
+      \field{title}{Freiheit und Bestimmtsein durch Normen}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
     \entry{hegel_enzyklopädie_1969}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=657f840dc3818e7a56523e4e2d17a0ca}{%
@@ -236,6 +282,7 @@
       \strng{authorbibnamehash}{e349d8796f66a379cee49585bc0b9938}
       \strng{authornamehash}{e349d8796f66a379cee49585bc0b9938}
       \strng{authorfullhash}{e349d8796f66a379cee49585bc0b9938}
+      \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
@@ -248,19 +295,25 @@
       \field{dateera}{ce}
     \endentry
     \entry{khurana_paradox_2019}{book}{}
-      \name{author}{2}{}{%
+      \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e349d8796f66a379cee49585bc0b9938}{%
            family={Khurana},
            familyi={K\bibinitperiod},
            given={Thomas},
            giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c0d5f872390d50fb53b8f85e889b4650}{%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e349d8796f66a379cee49585bc0b9938}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c0d5f872390d50fb53b8f85e889b4650}{%
            family={Menke},
            familyi={M\bibinitperiod},
            given={Christoph},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
+           giveni={C\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Berlin}%
@@ -268,19 +321,23 @@
       \list{publisher}{1}{%
         {August Verlag}%
       }
-      \strng{namehash}{bfff538eb9aa0330c4ec28dbf441709d}
-      \strng{fullhash}{bfff538eb9aa0330c4ec28dbf441709d}
-      \strng{bibnamehash}{bfff538eb9aa0330c4ec28dbf441709d}
-      \strng{authorbibnamehash}{bfff538eb9aa0330c4ec28dbf441709d}
-      \strng{authornamehash}{bfff538eb9aa0330c4ec28dbf441709d}
-      \strng{authorfullhash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{namehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{fullhash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{bibnamehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{authorbibnamehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{authornamehash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{authorfullhash}{e349d8796f66a379cee49585bc0b9938}
+      \strng{editorbibnamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{editornamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{editorfullhash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \field{extraname}{2}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{series}{Paradoxien der Autonomie. Freiheit und Gesetz 1}
       \field{shorttitle}{PdA}
-      \field{title}{Das Paradox der Autonomie. Kants Problem und Hegels Lösung}
+      \field{title}{Paradoxien der Autonomie zur Einleitung}
       \field{year}{2019}
       \field{dateera}{ce}
     \endentry
@@ -456,6 +513,52 @@
       \field{shorttitle}{KSA 3}
       \field{title}{Morgenröte. Idyllen aus Messina. Die fröhliche Wissenschaft}
       \field{year}{1999}
+      \field{dateera}{ce}
+    \endentry
+    \entry{pinkard_paradox_2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=640ec0973dfed98f07cf0440ca892535}{%
+           family={Pinkard},
+           familyi={P\bibinitperiod},
+           given={Terry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e349d8796f66a379cee49585bc0b9938}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c0d5f872390d50fb53b8f85e889b4650}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {August Verlag}%
+      }
+      \strng{namehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{fullhash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{bibnamehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{authorbibnamehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{authornamehash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{authorfullhash}{640ec0973dfed98f07cf0440ca892535}
+      \strng{editorbibnamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{editornamehash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \strng{editorfullhash}{bfff538eb9aa0330c4ec28dbf441709d}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{series}{Paradoxien der Autonomie. Freiheit und Gesetz 1}
+      \field{shorttitle}{PdA}
+      \field{title}{Das Paradox der Autonomie. Kants Problem und Hegels Lösung}
+      \field{year}{2019}
       \field{dateera}{ce}
     \endentry
     \entry{stephan_nietzscheanismus_2019}{book}{}
