@@ -5,6 +5,8 @@
 \usepackage{mystyle}
 \usepackage{csquotes}
 
+\usepackage[nottoc,numbib]{tocbibind}
+
 \usepackage{setspace}
 
 \hyphenation{Selbst-Ge-setz-ge-bung}
@@ -779,5 +781,13 @@ Gerade durch diese Perspektive bietet das Projekt, Nietzsche und Hegel gemeinsam
 
 \backmatter
 \printbibliography
- 
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+
+\chapter*{Eigenständigkeitserklärung}
+Hiermit versichere ich, dass ich die Arbeit selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe. 
+Die Arbeit wurde nicht -- auch nicht auszugsweise -- in einem anderen Studiengang als Studien- oder prüfungsleistung verwendet. \par\medskip
+\includegraphics[height=5\baselineskip]{unterschrift.jpg} \par
+Jan van Dick, \today, Frankfurt am Main
+
+\addcontentsline{toc}{chapter}{Eigenständigkeitserklärung}
 \end{document}

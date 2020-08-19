@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  19 AUG 2020 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.7)  19 AUG 2020 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,7 +877,14 @@ Package: xparse 2020-02-14 L3 Experimental document command parser
 \l__xparse_m_args_int=\count418
 \l__xparse_v_nesting_int=\count419
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 Package csquotes Info: Checking for multilingual support...
@@ -885,22 +892,22 @@ Package csquotes Info: ... found 'babel' package.
  (./arbeit.aux)
 \openout1 = `arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -963,10 +970,10 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 41.
+loading the todonotes package. on input line 43.
 
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -978,9 +985,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count426
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./arbeit.out) (./arbeit.out)
 \@outlinefile=\write6
@@ -1012,17 +1019,17 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'arbeit.bbl' found.
 
 (./arbeit.bbl)
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
-<images/logo.png, id=87, 237.88875pt x 213.79875pt>
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+<images/logo.png, id=95, 237.88875pt x 213.79875pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 44.
+Package pdftex.def Info: images/logo.png  used on input line 46.
 (pdftex.def)             Requested size: 237.88815pt x 213.79822pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 44.
+(Font)              <14.4> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 46.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>] (./arb
@@ -1043,12 +1050,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Kapitel 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 54.
 
-Package biblatex Warning: Nested notes on input line 61.
+Package biblatex Warning: Nested notes on input line 63.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--83
+Underfull \hbox (badness 10000) in paragraph at lines 54--85
 
  []
 
@@ -1056,7 +1063,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.83 
+l.85 
       [1
 
 
@@ -1070,198 +1077,198 @@ This may cause the page layout to be inconsistent, however.
 [2] [3]
 Kapitel 2.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 131.
+ine 133.
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 131--131
+Overfull \hbox (54.5pt too wide) in paragraph at lines 133--133
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 131--131
+Overfull \hbox (54.5pt too wide) in paragraph at lines 133--133
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--133
+Underfull \hbox (badness 10000) in paragraph at lines 118--135
 
  []
 
 [4
 
 ]
-Overfull \hbox (54.5pt too wide) in paragraph at lines 136--136
+Overfull \hbox (54.5pt too wide) in paragraph at lines 138--138
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 136--136
+Overfull \hbox (54.5pt too wide) in paragraph at lines 138--138
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--151
+Underfull \hbox (badness 10000) in paragraph at lines 137--153
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 153--158
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 176--176
+Overfull \hbox (54.5pt too wide) in paragraph at lines 178--178
 [][] 
  []
 
 
-Overfull \hbox (54.5pt too wide) in paragraph at lines 176--176
+Overfull \hbox (54.5pt too wide) in paragraph at lines 178--178
 [][] 
  []
 
 [6] [7]
 
-Package biblatex Warning: Nested notes on input line 206.
+Package biblatex Warning: Nested notes on input line 208.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--213
+Underfull \hbox (badness 10000) in paragraph at lines 201--215
 
  []
 
 [8]
 
-Package biblatex Warning: Nested notes on input line 228.
+Package biblatex Warning: Nested notes on input line 230.
 
 
-Package biblatex Warning: Nested notes on input line 251.
+Package biblatex Warning: Nested notes on input line 253.
 
 
-Package biblatex Warning: Nested notes on input line 251.
+Package biblatex Warning: Nested notes on input line 253.
 
 [9] [10]
 
-Package biblatex Warning: Nested notes on input line 286.
+Package biblatex Warning: Nested notes on input line 288.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--287
+Underfull \hbox (badness 10000) in paragraph at lines 283--289
 
  []
 
 
-Package biblatex Warning: Nested notes on input line 298.
+Package biblatex Warning: Nested notes on input line 300.
 
 
-Package biblatex Warning: Nested notes on input line 298.
+Package biblatex Warning: Nested notes on input line 300.
 
 [11]
 
-Package biblatex Warning: Nested notes on input line 314.
+Package biblatex Warning: Nested notes on input line 316.
 
 [12] [13] Excluding 'comment' comment. Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 342--353
+Underfull \hbox (badness 10000) in paragraph at lines 344--355
 
  []
 
 
-Package biblatex Warning: Nested notes on input line 361.
+Package biblatex Warning: Nested notes on input line 363.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 372--378
+Underfull \hbox (badness 10000) in paragraph at lines 374--380
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 380--399
+Underfull \hbox (badness 10000) in paragraph at lines 382--401
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 407--422
+Underfull \hbox (badness 10000) in paragraph at lines 409--424
 
  []
 
 [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 449--467
+Underfull \hbox (badness 10000) in paragraph at lines 451--469
 
  []
 
 [19]
 
-Package biblatex Warning: Nested notes on input line 481.
+Package biblatex Warning: Nested notes on input line 483.
 
 [20]
 
-Package biblatex Warning: Nested notes on input line 514.
+Package biblatex Warning: Nested notes on input line 516.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--520
+Underfull \hbox (badness 10000) in paragraph at lines 496--522
 
  []
 
 [21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 554--559
+Underfull \hbox (badness 10000) in paragraph at lines 556--561
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 560--566
+Underfull \hbox (badness 10000) in paragraph at lines 562--568
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 576--587
+Underfull \hbox (badness 10000) in paragraph at lines 578--589
 
  []
 
 
-Package biblatex Warning: Nested notes on input line 602.
+Package biblatex Warning: Nested notes on input line 604.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--603
+Underfull \hbox (badness 10000) in paragraph at lines 590--605
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 607--619
+Underfull \hbox (badness 10000) in paragraph at lines 609--621
 
  []
 
 [26]
 
-Package biblatex Warning: Nested notes on input line 631.
+Package biblatex Warning: Nested notes on input line 633.
 
 
-Package biblatex Warning: Nested notes on input line 631.
+Package biblatex Warning: Nested notes on input line 633.
 
 
-Package biblatex Warning: Nested notes on input line 631.
+Package biblatex Warning: Nested notes on input line 633.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--641
+Underfull \hbox (badness 10000) in paragraph at lines 622--643
 
  []
 
 [27]
 
-Package biblatex Warning: Nested notes on input line 669.
+Package biblatex Warning: Nested notes on input line 671.
 
 
-Package biblatex Warning: Nested notes on input line 687.
+Package biblatex Warning: Nested notes on input line 689.
 
 [28]
-Overfull \hbox (3.89478pt too wide) in paragraph at lines 690--710
+Overfull \hbox (3.89478pt too wide) in paragraph at lines 692--712
 \T1/cmr/m/n/12 Befreiung be-deu-tet Durch-sto-ÿen des ^^RSchein[s] der Not-wen-
 dig-keit^^P[][][]. Bei Nietz-
  []
 
 [29] [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 736--742
+Underfull \hbox (badness 10000) in paragraph at lines 738--744
 
  []
 
 [32] [33]
 Kapitel 3.
 
-Package biblatex Warning: Nested notes on input line 777.
+Package biblatex Warning: Nested notes on input line 779.
 
 [34
 
@@ -1269,29 +1276,37 @@ Package biblatex Warning: Nested notes on input line 777.
 
 
 ]
-Overfull \hbox (20.54898pt too wide) in paragraph at lines 782--782
+Overfull \hbox (20.54898pt too wide) in paragraph at lines 784--784
 [][]\T1/cmr/m/n/12 Stephan, Paul. \T1/cmr/m/it/12 Links-Nietzscheanismus Ei-ne 
 Ein-füh-rung\T1/cmr/m/n/12 . Stutt-gart: Schmetterling-
  []
 
 [36]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 783.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 783.
+<images/unterschrift.jpg, id=838, 1160.335pt x 348.30125pt>
+File: images/unterschrift.jpg Graphic file (type jpg)
+<use images/unterschrift.jpg>
+Package pdftex.def Info: images/unterschrift.jpg  used on input line 790.
+(pdftex.def)             Requested size: 299.7324pt x 89.9723pt.
+ [37
+
+ <./images/unterschrift.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 794.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 794.
  (./arbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 783.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 783.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 794.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 794.
 Package rerunfilecheck Info: File `arbeit.out' has not changed.
-(rerunfilecheck)             Checksum: AFACCC100037802BC2F23A64A0843570;1042.
+(rerunfilecheck)             Checksum: CF3429A3096CC21165AACB1CA37D0A6E;1168.
 Package logreq Info: Writing requests to 'arbeit.run.xml'.
 \openout1 = `arbeit.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 783.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 794.
  ) 
 Here is how much of TeX's memory you used:
- 26671 strings out of 481239
- 506266 string characters out of 5920378
- 1184512 words of memory out of 5000000
- 41209 multiletter control sequences out of 15000+600000
+ 26762 strings out of 481239
+ 507600 string characters out of 5920378
+ 1186452 words of memory out of 5000000
+ 41292 multiletter control sequences out of 15000+600000
  547689 words of font info for 52 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  76i,11n,87p,948b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1837,10 +1852,10 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb>
-Output written on arbeit.pdf (38 pages, 405988 bytes).
+Output written on arbeit.pdf (39 pages, 424936 bytes).
 PDF statistics:
- 931 PDF objects out of 1000 (max. 8388607)
- 851 compressed objects within 9 object streams
- 252 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 947 PDF objects out of 1000 (max. 8388607)
+ 865 compressed objects within 9 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
