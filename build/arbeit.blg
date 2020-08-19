@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'arbeit.blg'
-[65] biber:322> INFO - === Mi Aug 19, 2020, 00:24:19
-[80] Biber.pm:415> INFO - Reading 'arbeit.bcf'
-[146] Biber.pm:943> INFO - Found 18 citekeys in bib section 0
-[157] Biber.pm:4256> INFO - Processing section 0
-[157] Utils.pm:75> INFO - Globbing data source 'literatur.bib'
-[157] Utils.pm:91> INFO - Globbed data source 'literatur.bib' to literatur.bib
-[166] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[167] bibtex.pm:1653> INFO - LaTeX decoding ...
-[194] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur.bib'
-[287] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[287] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[287] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
-[287] Biber.pm:4090> INFO - No sort tailoring available for locale 'de_DE'
-[299] bbl.pm:652> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
-[306] bbl.pm:755> INFO - Output to arbeit.bbl
+[63] biber:322> INFO - === Mi Aug 19, 2020, 13:28:51
+[74] Biber.pm:415> INFO - Reading 'arbeit.bcf'
+[138] Biber.pm:943> INFO - Found 18 citekeys in bib section 0
+[147] Biber.pm:4256> INFO - Processing section 0
+[147] Utils.pm:75> INFO - Globbing data source 'literatur.bib'
+[148] Utils.pm:91> INFO - Globbed data source 'literatur.bib' to literatur.bib
+[155] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[156] bibtex.pm:1653> INFO - LaTeX decoding ...
+[181] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur.bib'
+[267] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[267] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[267] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
+[267] Biber.pm:4090> INFO - No sort tailoring available for locale 'de_DE'
+[278] bbl.pm:652> INFO - Writing 'arbeit.bbl' with encoding 'UTF-8'
+[285] bbl.pm:755> INFO - Output to arbeit.bbl
